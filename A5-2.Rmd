@@ -1,0 +1,174 @@
+---
+title: "A5-2"
+author: "Swetha Narayanan"
+date: "11/18/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Set up environment
+```{r}
+library(caret)
+library(xgboost)
+library(DMwR)
+library(ROSE)
+library(ROCR)
+library(dplyr)
+library(tidyverse)
+
+set.seed(5152)
+
+data <- read.csv("data/application_v3.csv")
+data$TARGET <- factor(data$TARGET)
+levels(data$TARGET) <- c("OTHER", "DIFFICULTY")
+
+#Summary on the target variable - Minority class is 6% of total class labels
+summary(data$TARGET)
+
+train_idx <- createDataPartition(data$TARGET, p = 0.7, list = FALSE)
+train <- data[train_idx, ]
+test  <- data[-train_idx, ]
+```
+
+## Set up functions
+```{r}
+calculate_cm <- function(model, test){
+  pred <- predict(model, test)
+  cm <- confusionMatrix(pred, test$TARGET, positive = 'DIFFICULTY' )
+  return(cm)
+}
+
+#We want to calculate AUC for the minority class - i.e target variable in difficulty
+calculate_auc <- function(model, test){
+  pred_obj <- prediction(predictions = predict(model, test, type='prob')$DIFFICULTY, labels =  test$TARGET)
+  perf_auc <- performance(pred_obj, measure = "auc")
+  return(perf_auc@y.values)
+}
+
+build_tuned_xgb_model <- function(train, ctrl){
+  starttime <- Sys.time()
+  grid <- expand.grid(.nrounds=c(40,50,60),.eta=c(0.2,0.3,0.4),.gamma=c(0,1),.max_depth=c(2,3,4),.colsample_bytree=c(0.8),.subsample=c(1),.min_child_weight=c(1))
+  model <- train(TARGET ~ ., data = train, method = "xgbTree", metric = "ROC", trControl = ctrl, tuneGrid = grid)
+  endtime<-Sys.time()
+  print(endtime-starttime)
+  print(model$bestTune)
+  return(model)
+}
+```
+
+## Baseline model
+```{r}
+ctrl <- trainControl(method = "cv", number = 10, summaryFunction = twoClassSummary, classProbs = TRUE, allowParallel = TRUE)
+model_baseline <- build_tuned_xgb_model(train, ctrl)
+#Confusion Matrix
+cm_original <- calculate_cm(model_baseline, test)
+cm_original
+#AUC
+auc_original <- calculate_auc(model_baseline, test)
+auc_original
+```
+
+## Undersampling
+### Undersampling randomly downsamples the majority class. 
+### Downside: In general, the more imbalanced the dataset the more samples will be discarded when undersampling, therefore ### throwing away potentially useful information
+```{r}
+ctrl <- trainControl(method = "cv", number = 10, summaryFunction = twoClassSummary, classProbs = TRUE, sampling = "down", allowParallel = TRUE)
+model.down <- build_tuned_xgb_model(train, ctrl)
+#Confusion Matrix
+cm_under <- calculate_cm(model.down, test)
+cm_under
+#AUC
+auc_under <- calculate_auc(model.down, test)
+auc_under
+```
+
+## Over sampling
+### Oversampling randomly replicates minority instances to increase their population. 
+### Downside: Replicating data is not without consequence—since it results in duplicate data, it makes variables appear to have lower variance than they do
+```{r}
+ctrl <- trainControl(method = "cv", number = 10, summaryFunction = twoClassSummary, classProbs = TRUE, sampling = "up", allowParallel = TRUE)
+model.up <- build_tuned_xgb_model(train, ctrl)
+#Confusion Matrix
+cm_over <- calculate_cm(model.up, test)
+cm_over
+#AUC
+auc_over <- calculate_auc(model.up, test)
+auc_over
+```
+
+## Smote sampling : Synthetic Minority Over-sampling Technique
+### SMOTE draws artificial samples by choosing points that lie on the line connecting the rare observation to one of its nearest neighbors in the feature space.
+```{r}
+ctrl <- trainControl(method = "cv", number = 10, summaryFunction = twoClassSummary, classProbs = TRUE, sampling = "smote", allowParallel = TRUE)
+model.smote <- build_tuned_xgb_model(train, ctrl)
+#Confusion Matrix
+cm_smote <- calculate_cm(model.smote, test)
+cm_smote
+#AUC
+auc_smote <- calculate_auc(model.smote, test)
+auc_smote
+```
+
+## Under and oversampling
+### In this case, the minority class is oversampled with replacement and majority class is undersampled without replacement.
+### Unlike SMOTE, we dont create synthetic samples here - we just work with existing data with and without replacement
+```{r}
+summary(train$TARGET)
+summary(test$TARGET)
+
+data_balanced_both <- ovun.sample(TARGET ~ ., data = train, method = "both")
+summary(data_balanced_both$data$TARGET)
+
+## Data is in 1:16 : rareclass: commonclass ratio
+ctrl <- trainControl(method = "cv", number = 10, summaryFunction = twoClassSummary, classProbs = TRUE, allowParallel = TRUE)
+model_under_over <- build_tuned_xgb_model(data_balanced_both$data, ctrl)
+#Confusion Matrix
+cm_under_over <- calculate_cm(model_under_over, test)
+cm_under_over
+#AUC
+auc_under_over <- calculate_auc(model_under_over, test)
+auc_under_over
+```
+
+## Comparing performance
+### Note that metrics here are calculated for the DIFFICULTY class
+```{r}
+AUC_metrics <- data.frame(auc_original,auc_under,auc_over,auc_under_over,auc_smote)
+colnames(AUC_metrics) <- c("original","under","over", "under_over","smote")
+models <- list(original = model_baseline,
+               under = model.down,
+               over = model.up,
+               under_over = model_under_over,
+               smote = model.smote
+)
+resampling <- resamples(models)
+bwplot(resampling)
+
+# Nicer plot for comparing results
+comparison <- data.frame(model = names(models),
+                         Precision = rep(NA, length(models)),
+                         Recall = rep(NA, length(models)),
+                         F1 = rep(NA, length(models)),
+                         AUC = rep(NA, length(models)))
+
+for (name in names(models)) {
+  model <- get(paste0("cm_", name))
+  metrics <- model$byClass
+  
+  comparison[comparison$model == name, ] <- filter(comparison, model == name) %>%
+    mutate(Precision = metrics["Precision"],
+           Recall = metrics["Recall"],
+           F1 = metrics["F1"],
+           AUC = as.numeric(AUC_metrics[name]))
+}
+
+comparison %>%
+  gather(x, y, Precision:AUC) %>%
+  ggplot(aes(x = x, y = y, color = model)) +
+  geom_jitter(width = 0.2, alpha = 0.5, size = 3)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

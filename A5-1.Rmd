@@ -1,0 +1,133 @@
+---
+title: "A5-1"
+author: "Swetha Narayanan"
+date: "11/18/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Set up data
+
+```{r}
+set.seed(42)
+
+library(e1071)
+library(caret)
+library(ggplot2)
+library(performanceEstimation) 
+library(kernlab)
+
+train <- read.csv("data/A3_train.csv", colClasses = append(rep(c("numeric"), times = 15), "factor"))
+
+cols <- c('x4', 'x8', 'y')
+
+train_t <- train[1:1500, cols]
+train_v <- train[1501:2000, cols]
+
+# Plot to see how data look like
+ggplot(train_t, aes(x = x4, y = x8, color = y)) + geom_point(shape = 1) + ggtitle("training")
+ggplot(train_v, aes(x = x4, y = x8, color = y)) + geom_point(shape = 1) + ggtitle("validation")
+```
+```{r}
+calculate_auc <- function(model, test){
+  pred_obj <- prediction(predictions = predict(model, test, type='prob')$DIFFICULTY, labels =  test$TARGET)
+  perf_auc <- performance(pred_obj, measure = "auc")
+  return(perf_auc@y.values)
+}
+```
+
+## Linear Kernel - Baseline
+```{r}
+# model.linear <- svm(y ~ ., data=train_t, kernel = 'linear')
+# pred.linear = predict(model.linear, train_v)
+# plot(model.linear, train_v)
+# confusionMatrix(pred.linear, train_v$y)
+```
+
+## Polynomial Kernel - tuning
+```{r}
+# Tuning svm model
+poly.tune = tune.svm(y ~ ., data=train_t, kernel="polynomial",degree=c(4,5), coef0=c(0.5,1), gamma = c(0.5,1))
+svm_poly <- poly.tune$best.model
+svm_poly
+
+# Best Parameters:
+#    SVM-Type:  C-classification 
+#  SVM-Kernel:  polynomial 
+#        cost:  1 
+#      degree:  5 
+#       gamma:  1 
+#      coef.0:  0.5 
+     
+# Plot the kernel boundary and see how it is segment that 2 classes
+plot(svm_poly, train_t)
+plot(svm_poly, train_v)
+
+#Predict with best model
+pred.poly.t <- predict(svm_poly, train_t)
+confusionMatrix(pred.poly.t, train_t$y)
+pred.poly.v <- predict(svm_poly, train_v)
+confusionMatrix(pred.poly.v, train_v$y)
+classificationMetrics(pred.poly.v, train_v$y)
+```
+
+## RBF Kernel - tuning
+```{r}
+# Tuning svm model
+models.radial <- tune(svm, y ~ ., data = train_t, kernel = 'radial', ranges = list(cost = c(1, 2), gamma = c(1, 5)))
+svm_radial <- models.radial$best.model
+svm_radial
+
+# Best Parameters:
+#    SVM-Type:  C-classification 
+#  SVM-Kernel:  radial 
+#        cost:  1 
+#       gamma:  5 
+
+# Plot the kernel boundary and see how it is segment that 2 classes
+plot(svm_radial, train_t)
+plot(svm_radial, train_v)
+
+# Predict with Best model
+pred.radial.t <- predict(svm_radial, train_t)
+confusionMatrix(pred.radial.t, train_t$y)
+pred.radial.v <- predict(svm_radial, train_v)
+confusionMatrix(pred.radial.v, train_v$y)
+classificationMetrics(pred.radial.v, train_v$y)
+
+# plotting using kernlab
+# Train a radial SVM model with cost of misclassification as 1 and gamma as 5
+model.radial_ksvm <- ksvm(y ~ ., data = train_t, kernel = 'rbfdot', C = 1, kpar = list(sigma = 5))
+# 
+# Plot the kernel boundary and see how it is segment that 2 classes
+plot(model.radial_ksvm, data = train_t)
+```
+
+## Sigmoid Kernel - tuning
+```{r}
+# Tuning svm model
+models.sigmoid <- tune.svm(y ~ ., data=train_t, kernel="sigmoid", cost = c(0.1, 1), gamma=c(0.5,1), coef0=c(2,3,4))
+svm_sigmoid <- models.sigmoid$best.model
+svm_sigmoid
+
+# Best Parameters:
+#    SVM-Type:  C-classification 
+#  SVM-Kernel:  sigmoid 
+#        cost:  0.1 
+#       gamma:  0.5 
+#      coef.0:  4 
+
+# Plot the kernel boundary and see how it is segment that 2 classes
+plot(svm_sigmoid, train_t)
+plot(svm_sigmoid, train_v)
+
+#Predict with Best model
+pred.sigmoid.t <- predict(svm_sigmoid, train_t)
+confusionMatrix(pred.sigmoid.t, train_t$y)
+pred.sigmoid.v <- predict(svm_sigmoid, train_v)
+confusionMatrix(pred.sigmoid.v, train_v$y)
+classificationMetrics(pred.sigmoid.v, train_v$y)
+```

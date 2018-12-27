@@ -1,0 +1,320 @@
+---
+title: "BT5152 Assignment1"
+author: "Swetha Narayanan"
+date: "9/8/2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Problem Description
+The LendingClub is a peer-to-peer leading company that directly connects borrowers and potential lenders/investors. In this assignment, you will build classification models to predict whether or not a loan provided by LendingClub is likely to be a bad loan. In other words, you will use data from the LendingClub to predict whether a loan will be paid off in full or the loan will be charged off and possibly go into default.
+
+## Dataset Description
+We will be using a subset of features (categorical and numeric) from the LendingClub website. The features we will be using are described in the code comments below.
+1.	'grade',                     # grade of the loan
+2.	'sub_grade',                 # sub-grade of the loan
+3.	'short_emp',                 # one year or less of employment
+4.	'emp_length_num',            # number of years of employment
+5.	'home_ownership',            # home_ownership status: own, mortgage or rent
+6.	'dti',                       # debt to income ratio
+7.	'purpose',                   # the purpose of the loan
+8.	'term',                      # the term of the loan
+9.	'last_delinq_none',          # has borrower had a delinquincy
+10.	'last_major_derog_none',     # has borrower had 90 day or worse rating
+11.	'revol_util',                # percent of available credit being used
+12.	'total_rec_late_fee',        # total late fees received to day
+13.	target = 'bad_loans'         # prediction target (y) (1 means risky, 0  means safe)
+
+
+## Preparing the data for analysis 
+1) Scaling numerical variables by max-min approach
+2) Convert categorical variables to factors
+
+```{r}
+set.seed(42)
+library(dplyr)
+library(gmodels)
+library(caret)
+
+#Read and examine the data
+loan_train <- read.csv("loan_train.csv")
+nrow(loan_train)
+head(loan_train)
+loan_test <- read.csv("loan_test.csv")
+nrow(loan_test)
+head(loan_test)
+
+#scale numerical variables properly by the max-min approach
+normalize <- function(x) {
+    return ((x - min(x)) / (max(x) - min(x)))
+}
+loan_train["emp_length_num"] <- as.data.frame(lapply(loan_train["emp_length_num"], normalize))
+loan_train["dti"] <- as.data.frame(lapply(loan_train["dti"], normalize))
+loan_train["revol_util"] <- as.data.frame(lapply(loan_train["revol_util"], normalize))
+loan_train["total_rec_late_fee"] <- as.data.frame(lapply(loan_train["total_rec_late_fee"], normalize))
+
+loan_test["emp_length_num"] <- as.data.frame(lapply(loan_test["emp_length_num"], normalize))
+loan_test["dti"] <- as.data.frame(lapply(loan_test["dti"], normalize))
+loan_test["revol_util"] <- as.data.frame(lapply(loan_test["revol_util"], normalize))
+loan_test["total_rec_late_fee"] <- as.data.frame(lapply(loan_test["total_rec_late_fee"], normalize))
+
+#Convert label variable's data type to factor (categorical variable)
+loan_train$bad_loans <- as.factor(loan_train$bad_loans)
+loan_train$short_emp <- as.factor(loan_train$short_emp)
+loan_train$last_delinq_none <- as.factor(loan_train$last_delinq_none)
+loan_train$last_major_derog_none <- as.factor(loan_train$last_major_derog_none)
+
+loan_test$bad_loans <- as.factor(loan_test$bad_loans)
+loan_test$short_emp <- as.factor(loan_test$short_emp)
+loan_test$last_delinq_none <- as.factor(loan_test$last_delinq_none)
+loan_test$last_major_derog_none <- as.factor(loan_test$last_major_derog_none)
+```
+
+## Task 1
+Model the training data "loan_train.csv" using KNN, Naïve Bayes, C50 decision tree decision tree receptively. Report training accuracies and test accuracies on the training dataset "loan_train.csv" and test dataset "loan_test.csv" respectively.
+
+```{r}
+#KNN
+# We use one hot encoder to perform “binarization” of the category and include it as a feature to train the model.One-hot encoding converts it into a categories with n values into n features. We should not apply onehot on your label/DV. We should apply oneHot only on your features
+library(onehot)
+train_data_knn <- loan_train[-13]
+test_data_knn <- loan_test[-13]
+encoder1 <- onehot(train_data_knn, max_levels = 100) # if you dont set the max_level, the number of types of sub_grade may exceed the default limit and you will see error message
+train_data_knn <- as.data.frame(predict(encoder1, train_data_knn))
+encoder2 <- onehot(test_data_knn, max_levels = 100)
+test_data_knn <- as.data.frame(predict(encoder2, test_data_knn))
+
+library(class)
+test_pred_knn <- knn(train_data_knn, test_data_knn, loan_train$bad_loans, k=10) #13 min to run
+train_pred_knn <- knn(train_data_knn, train_data_knn, loan_train$bad_loans, k=10)
+
+# Print the Accuracy & Kappa 
+#Training_Accuracy <- confusionMatrix(train_pred_knn, loan_train$bad_loans)$overall['Accuracy']
+#Kappa - improvement over random guess
+#Training_Kappa <- confusionMatrix(train_pred_knn, loan_train$bad_loans)$overall['Kappa']
+
+#Results from a previous run since RMarkdown -> HTML takes 15 min if run directly
+Training_Accuracy = 0.819
+Training_Kappa = 0.103
+
+# Print the Accuracy & Kappa
+Test_Accuracy <- confusionMatrix(test_pred_knn, loan_test$bad_loans)$overall['Accuracy']
+#Kappa - improvement over random guess
+Test_Kappa <- confusionMatrix(test_pred_knn, loan_test$bad_loans)$overall['Kappa']
+
+#Results from a previous run since RMarkdown -> HTML takes 15 min if run directly
+Test_Accuracy = 0.798
+Test_Kappa = 0.187
+
+df_knn <-data.frame(Training_Accuracy*100,Training_Kappa*100,Test_Accuracy*100,Test_Kappa*100)
+
+#Decision tree
+library(C50)
+#build model
+model_tree <- C5.0(loan_train[-13], loan_train$bad_loans)
+#summary(model_tree)
+#Predict and calculate Training accuracy
+train_pred_c50 <- predict(model_tree, loan_train)
+
+# Print the Accuracy & Kappa
+Training_Accuracy <- confusionMatrix(train_pred_c50, loan_train$bad_loans)$overall['Accuracy']
+#Kappa - improvement over random guess
+Training_Kappa <- confusionMatrix(train_pred_c50, loan_train$bad_loans)$overall['Kappa']
+
+#Predict and calculate Test accuracy
+test_pred_c50 <- predict(model_tree, loan_test)
+
+# Print the Accuracy & Kappa
+Test_Accuracy <- confusionMatrix(test_pred_c50, loan_test$bad_loans)$overall['Accuracy']
+#Kappa - improvement over random guess
+Test_Kappa <- confusionMatrix(test_pred_c50, loan_test$bad_loans)$overall['Kappa']
+
+df_c50 <-data.frame(Training_Accuracy*100,Training_Kappa*100,Test_Accuracy*100,Test_Kappa*100)
+
+#NB
+#One problem of the NB algorithm is when the training set is not large enough, some of P(xi|c) may become 0. When this term is multiplied with other probabilities, the final value is still 0. The solution is The Laplace estimator. We add a small number to each of the counts in the frequency table, which ensures that each feature has a nonzero probability of occurring with each class. Typically, the Laplace estimator is set to 1, which ensures that each class-feature combination is found in the data at least once.
+
+library(e1071)
+model_nb <- naiveBayes(bad_loans ~ ., data = loan_train, laplace = 1)
+#Predict and calculate Training accuracy
+train_pred_nb <- predict(model_nb, loan_train)
+
+# Print the Accuracy & Kappa
+Training_Accuracy <- confusionMatrix(train_pred_nb, loan_train$bad_loans)$overall['Accuracy']
+#Kappa - improvement over random guess
+Training_Kappa <- confusionMatrix(train_pred_nb, loan_train$bad_loans)$overall['Kappa']
+
+#Predict and calculate Test accuracy
+test_pred_nb <- predict(model_nb, loan_test)
+
+# Print the Accuracy & Kappa
+Test_Accuracy <- confusionMatrix(test_pred_nb, loan_test$bad_loans)$overall['Accuracy']
+#Kappa - improvement over random guess
+Test_Kappa <- confusionMatrix(test_pred_nb, loan_test$bad_loans)$overall['Kappa']
+
+df_nb <-data.frame(Training_Accuracy*100,Training_Kappa*100,Test_Accuracy*100,Test_Kappa*100)
+```
+
+##Task 1 Accuracy results and interpretation
+1) C50 decision tree gives best test accuracy (80.66%), followed by KNN, followed by Naive Bayes
+2) KNN had the best training accuracy - expected due to the nature of KNN model. We chose a value of 10 - which is a
+relatively low K given the size of training data. Smaller the value of k, the higher the model complexity/more over-fitting -> higher training accuracy
+3) C50 used ‘total_rec_late_fee’ variable at the top for split followed by ‘term’ as the next important attribute followed by last_major_derog_none
+```{r}
+final_task1_df <- rbind(df_knn, df_nb, df_c50)
+rownames(final_task1_df) <- make.names(c("KNN","Naive Bayes Classifier", "C50 Decision tree"))
+colnames(final_task1_df) <- make.names(c("Training Accuracy", "Training Kappa", "Test Accuracy", "Test Kappa"))
+
+final_task1_df
+```
+
+## Task 2
+Now we practice rpart package. In order to avoid over fitting, prune the decision tree using three pre-pruning methods, and post-pruning by best complexity parameter. Compare the accuracies of fully-grown tree and 4 trees (both on training set and testing set) of the decision tree classifier. Discuss which tree gives you the best prediction results on the test set.
+
+```{r}
+library(rpart)
+library(rpart.plot)
+
+######################## Fully grown tree ##################################
+#build model
+model_rpart <- rpart(bad_loans ~ ., data = loan_train, control = rpart.control(cp = 0.00001))
+#plot
+#rpart.plot(model_rpart)
+
+#Predict and calculate Training accuracy
+train_pred_rpart <- predict(model_rpart, loan_train, type="class")
+
+# Print the Accuracy
+Training_Accuracy <- confusionMatrix(train_pred_rpart, loan_train$bad_loans)$overall['Accuracy']
+
+#Predict and calculate Test accuracy
+test_pred_rpart <- predict(model_rpart, loan_test, type="class")
+
+# Print the Accuracy
+Test_Accuracy <- confusionMatrix(test_pred_rpart, loan_test$bad_loans)$overall['Accuracy']
+
+df_rpart_baseline <-data.frame(Training_Accuracy*100, Test_Accuracy*100 )
+
+######################## Post-Pruning ##################################
+#CP is complexity parameter. If the cost of adding another variable to the decision tree from the current node is above the value of cp, then tree building does not continue for that node. For instance, with anova splitting, this means that the overall R-squared must increase by cp at each step. The main role of this parameter is to save computing time by pruning off splits that are obviously not worthwhile. Essentially,the user informs the program that any split which does not improve the fit by cp will likely be pruned off by cross-validation, and that hence the program need not pursue it.Setting this to zero will build a tree to its maximum depth (and perhaps will build a very, very, large tree)
+printcp(model_rpart)
+# Prune the tree using the best cp - the one that reduce cross validation error the most
+bestcp <- model_rpart$cptable[which.min(model_rpart$cptable[,"xerror"]),"CP"]
+model_rpart_postpruned <- prune(model_rpart, cp = bestcp)
+
+# plot your tree
+# rpart.plot(model_rpart_postpruned, digits = 4)
+
+#Predict and calculate Training accuracy
+train_pred_rpart_postpruned <- predict(model_rpart_postpruned, loan_train, type="class")
+
+# Print the Accuracy
+Training_Accuracy <- confusionMatrix(train_pred_rpart_postpruned, loan_train$bad_loans)$overall['Accuracy']
+
+#Predict and calculate test accuracy
+test_pred_rpart_postpruned <- predict(model_rpart_postpruned, loan_test, type="class")
+
+# Print the Accuracy
+Test_Accuracy <-confusionMatrix(test_pred_rpart_postpruned, loan_test$bad_loans)$overall['Accuracy']
+
+df_rpart_postpruned <-data.frame(Training_Accuracy*100, Test_Accuracy*100)
+
+######################## Pre-Pruning 1 ##################################
+model_rpart_prepruned1 <- rpart(bad_loans ~ ., data = loan_train, control = rpart.control(minsplit = 800, cp = 0.00001)) # 800 minimum number of observations that must exist in a node in order for a split to be attempted
+#rpart.plot(model_rpart_prepruned1, digits = 4)
+
+#Predict and calculate Training accuracy
+train_pred_rpart_prepruned1 <- predict(model_rpart_prepruned1, loan_train, type="class")
+
+# Print the Accuracy
+Training_Accuracy <- confusionMatrix(train_pred_rpart_prepruned1, loan_train$bad_loans)$overall['Accuracy']
+
+#Predict and calculate test accuracy
+test_pred_rpart_prepruned1 <- predict(model_rpart_prepruned1, loan_test, type="class")
+
+# Print the Accuracy
+Test_Accuracy <-confusionMatrix(test_pred_rpart_prepruned1, loan_test$bad_loans)$overall['Accuracy']
+
+df_rpart_prepruned1 <-data.frame(Training_Accuracy*100,Test_Accuracy*100)
+
+######################## Pre-Pruning 2 ##################################
+
+model_rpart_prepruned2 <- rpart(bad_loans ~ ., data = loan_train, control = rpart.control(minbucket = 200, cp = 0.00001)) # 200 minimum number of observations in any terminal <leaf> node
+#rpart.plot(model_rpart_prepruned2, digits = 4)
+
+#Predict and calculate Training accuracy
+train_pred_rpart_prepruned2 <- predict(model_rpart_prepruned2, loan_train, type="class")
+
+# Print the Accuracy
+Training_Accuracy <- confusionMatrix(train_pred_rpart_prepruned2, loan_train$bad_loans)$overall['Accuracy']
+
+#Predict and calculate test accuracy
+test_pred_rpart_prepruned2 <- predict(model_rpart_prepruned2, loan_test, type="class")
+
+# Print the Accuracy
+Test_Accuracy <-confusionMatrix(test_pred_rpart_prepruned2, loan_test$bad_loans)$overall['Accuracy']
+
+df_rpart_prepruned2 <-data.frame(Training_Accuracy*100,Test_Accuracy*100)
+
+######################## Pre-Pruning 3 ##################################
+model_rpart_prepruned3 <- rpart(bad_loans ~ ., data = loan_train, control = rpart.control(maxdepth = 3, cp = 0.00001)) # Set the maximum depth of any node of the final tree, with the root node counted as depth 0 : to 3
+rpart.plot(model_rpart_prepruned3, digits = 4)
+
+#Predict and calculate Training accuracy
+train_pred_rpart_prepruned3 <- predict(model_rpart_prepruned3, loan_train, type="class")
+
+# Print the Accuracy
+Training_Accuracy <- confusionMatrix(train_pred_rpart_prepruned3, loan_train$bad_loans)$overall['Accuracy']
+
+#Predict and calculate test accuracy
+test_pred_rpart_prepruned3 <- predict(model_rpart_prepruned3, loan_test, type="class")
+
+# Print the Accuracy
+Test_Accuracy <-confusionMatrix(test_pred_rpart_prepruned3, loan_test$bad_loans)$overall['Accuracy']
+
+df_rpart_prepruned3 <-data.frame(Training_Accuracy*100, Test_Accuracy*100 )
+```
+
+##Task 2 Accuracy Results and Interpretation
+1) rpart.pre.pruned.minbucket prepruned tree gives best test accuracy (80.66%). Other pruned trees also have closely matching accuracy.
+2) Test Accuracy improved from 76.84% to 80.65% after pruning the tree with the best cp value. 
+3) Baseline model (fully grown tree) performed better on Training dataset (85.34%) than all the pruned models. This proves that pruning the tree helps in avoiding overfitting. 
+4) The number of nodes is drastically reduced when tree is pruned thus increasing interpretability. 
+5) Pruned tree used ‘Sub_grade’ variable at the top for split followed by ‘total_rec_late_fee’ as the next important attribute followed by dti (debt to income ratio)
+
+```{r}
+final_df <- rbind(df_rpart_baseline, df_rpart_postpruned, df_rpart_prepruned1, df_rpart_prepruned2, df_rpart_prepruned3)
+
+rownames(final_df) <- make.names(c("rpart fully-grown-baseline", "rpart post-pruned", "rpart pre-pruned-minsplit", "rpart pre-pruned-minbucket", "rpart pre-pruned-maxdepth"))
+colnames(final_df) <- make.names(c("Training Accuracy", "Test Accuracy"))
+
+final_df
+```
+
+##Task 3 Optional Requirement - lower cp value (0.001) for comparison with baseline (0.00001)
+Training accuracy is lower and test accuracy is higher compared to the baseline model. Lower CP value reduces overfitting. Any split that does not decrease the overall lack of fit by a factor of 0.001 (compared to 0.00001) is not attempted.
+```{r}
+#build model
+model_rpart <- rpart(bad_loans ~ ., data = loan_train, control = rpart.control(cp = 0.001))
+
+#Predict and calculate Training accuracy
+train_pred_rpart <- predict(model_rpart, loan_train, type="class")
+
+# Print the Accuracy
+Training_Accuracy <- confusionMatrix(train_pred_rpart, loan_train$bad_loans)$overall['Accuracy']
+
+#Predict and calculate Test accuracy
+test_pred_rpart <- predict(model_rpart, loan_test, type="class")
+
+# Print the Accuracy
+Test_Accuracy <- confusionMatrix(test_pred_rpart, loan_test$bad_loans)$overall['Accuracy']
+
+df_rpart_cp <-data.frame(Training_Accuracy*100, Test_Accuracy*100 )
+
+df_rpart_cp
+```

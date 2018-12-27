@@ -1,0 +1,241 @@
+---
+title: "Assignment3"
+author: "Swetha Narayanan"
+date: "10/7/2018"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+```
+
+## Problem Statement - Understanding how ensemble methods improve performance
+The data is a simulated dataset with one binary label and 15 numerical features. There are 2000 records in the training data (with label values) and 2000 records in the test data (without label values).
+
+```{r}
+set.seed(42)
+
+A3_train <- read.csv("A3_train.csv")
+A3_test <- read.csv("A3_test.csv")
+A3_test_y <- read.csv("A3_test_y_true.csv")
+
+
+#split into train and validation
+train_data <- A3_train[1:1500,]
+validation_data <- A3_train[1501:2000,]
+test_data <- A3_test
+
+train_data$y <- as.factor(train_data$y)
+validation_data$y <- as.factor(validation_data$y)
+```
+
+## Task 1 - Random Forest of a post-pruned rpart
+Performance metric is simple accuracy for binary labels.
+```{r}
+set.seed(42)
+library(rpart)
+
+# Train random forest model manually
+train_random_forest <- function(n_trees, n_features, training_data, target_col_name) {
+  models <- lapply(1:n_trees, function(i) {
+    
+    # bootstrapping
+    n_samples <- nrow(training_data)
+    sample_row_ids <- sample(1:n_samples,replace=TRUE)
+    new_training_data <- training_data[sample_row_ids, ]
+    
+    #column sampling
+    target_var_index <- which(colnames(new_training_data)==target_col_name)
+    feature_indices <- c(1:ncol(new_training_data))[-target_var_index]
+    sample_cols <- sample(feature_indices, n_features)
+    new_training_data <- new_training_data[append(sample_cols,target_var_index)]
+    
+    #build model
+    formula <- as.formula(paste(target_col_name, '~.'))
+    new_model <- rpart(formula, data=new_training_data)
+    
+    #Prune model
+    bestcp <- new_model$cptable[which.min(new_model$cptable[,"xerror"]),"CP"]
+    pruned_model <- prune(new_model, cp = bestcp)
+    return(pruned_model)
+  })
+  return(models)
+}
+
+predict_random_forest <- function(models, test_data) {
+  preds <- sapply(models, function(model) {
+    return(predict(model, test_data, type = 'class'))
+  })
+   # apply majority voting
+  voted_pred <- apply(preds, 1, function(row) {
+    return(names(which.max(table(row))))
+  })
+  return(as.numeric(voted_pred))
+}
+
+#Typically, for a classification problem with p features, √p (rounded down) features are used in each split.
+#Source : https://en.wikipedia.org/wiki/Random_forest#cite_note-elemstatlearn-3
+models_rf <- train_random_forest(50, sqrt(ncol(train_data)), train_data, 'y')
+train_pred_rf <- predict_random_forest(models_rf, train_data)
+mean(train_pred_rf == as.numeric(train_data$y)-1) 
+validation_pred_rf <- predict_random_forest(models_rf, validation_data)
+mean(validation_pred_rf == as.numeric(validation_data$y)-1) 
+```
+## Task 2 - Manual Stacking
+Stacking of three algorithms: C50 with default parameter values, KNN with k=3, and your random forest in Task 1. The output of level0 is a binary label (not predicted probability). Logistic regression is used for the level1 algorithm. The final output is a binary label and the performance metric is simple accuracy.
+```{r}
+set.seed(42)
+#split into train and validation and test
+train_l0_data <- A3_train[1:1000,]
+train_l1_data <- A3_train[1001:1700,]
+test_data <- A3_train[1701:2000,]
+
+train_l0_data$y <- as.factor(train_l0_data$y)
+train_l1_data$y <- as.factor(train_l1_data$y)
+test_data$y <- as.factor(test_data$y)
+
+#Model 1
+library(C50)
+model_tree <- C5.0(y ~ ., train_l0_data)
+tree_accuracy_l0 <- mean(predict(model_tree, train_l0_data) == train_l0_data$y)
+
+#Model 2
+library(class)
+train <- train_l0_data[-which(colnames(train_l0_data)=='y')]
+pred_knn <- knn(train, train, train_l0_data$y, k = 3)
+knn_accuracy_l0 <- mean(pred_knn == train_l0_data$y)
+
+#Model 3: from Q1
+model_rf <- train_random_forest(50, sqrt(ncol(train_l0_data)), train_l0_data, 'y')
+rf_accuracy_l0 <- mean(predict_random_forest(model_rf, train_l0_data) == train_l0_data$y)
+
+#Prediction on l1 training data
+pred_tree <- predict(model_tree, train_l1_data)
+tree_accuracy_l1 <- mean(pred_tree == train_l1_data$y)  #Calculate Tree accuracy
+
+pred_knn <- knn(train, train_l1_data[-which(colnames(train_l1_data)=='y')], train_l0_data$y, k = 3)
+knn_accuracy_l1 <- mean(pred_knn == train_l1_data$y) #Calculate KNN accuracy
+
+pred_rf <- predict_random_forest(model_rf, train_l1_data)
+rf_accuracy_l1 <- mean(pred_rf == train_l1_data$y) #Calculate RF accuracy
+
+#Generic meta classifier 
+build_meta_classifier <- function( stacked_data, outcome_variable){
+  stacked_model <- glm(outcome_variable ~ ., stacked_data, family = "binomial")
+  return(stacked_model)
+} 
+
+stacked_data <- data.frame("tree" = pred_tree, "knn" = pred_knn, "rf"= pred_rf, outcome_variable = train_l1_data$y, row.names = NULL)
+stacked_model <- build_meta_classifier( stacked_data, "y" )
+
+#Stacking training accuracy
+prob_stacked <- predict(stacked_model, stacked_data, type = "response")
+pred_stacked <- as.factor(ifelse(prob_stacked >= 0.5, 1, 0))
+stacking_accuracy_l1 <- mean(pred_stacked == train_l1_data$y)
+
+c(rf_accuracy_l1, knn_accuracy_l1, tree_accuracy_l1, stacking_accuracy_l1)
+
+#Stacking test accuracy
+pred_tree <- predict(model_tree, test_data) 
+tree_accuracy_test <- mean(pred_tree == test_data$y)  #Calculate Tree accuracy
+
+pred_knn <- knn(train, test_data[-which(colnames(test_data)=='y')], train_l0_data$y, k = 3) 
+knn_accuracy_test <- mean(pred_knn == test_data$y) #Calculate KNN accuracy
+
+pred_rf <- predict_random_forest(models_rf, test_data)
+rf_accuracy_test <- mean(pred_rf == test_data$y) #Calculate RF accuracy
+
+stacked_data <- data.frame("tree" = pred_tree, "knn" = pred_knn, "rf"= pred_rf )
+prob_stacked <- predict(stacked_model, stacked_data, type = "response")
+pred_stacked <- as.factor(ifelse(prob_stacked >= 0.5, 1, 0))
+stacking_accuracy_test <- mean(pred_stacked == test_data$y)
+
+c(rf_accuracy_test, knn_accuracy_test, tree_accuracy_test, stacking_accuracy_test)
+```
+
+## Task 3 - Data competition - stacking usng ROC as metric
+```{r}
+set.seed(42)
+library("caretEnsemble")
+library("caret")
+library("ROCR")
+library("corrplot")
+library("MASS")
+
+A3_train <- read.csv("A3_train.csv")
+A3_test <- read.csv("A3_test.csv")
+
+#Data visualization, x1, x5 , x8, x14 seem to be highly correlated. So we can drop 3 of them
+corrplot(cor(A3_train), method = "circle")
+A3_train <- A3_train [-c(1,5,14)]
+A3_test <- A3_test[-c(1,5,14)]
+
+#Feature Engineering - x4*x8 seems to be signficant through stepAIC, so we add it to the model
+glm1 <- glm(y ~ .+ x4 *x8, data=A3_train, family=binomial())
+glm.best <- stepAIC(glm1, direction="both",trace=0)
+glm.best
+A3_train$x16 = A3_train$x4 * A3_train$x8
+A3_test$x16 = A3_test$x4 * A3_test$x8
+
+#split into train and validation
+train_data <- A3_train[1:1500,]
+validation_data <- A3_train[1501:2000,]
+test_data <- A3_test
+
+train_data$y <- as.factor(train_data$y)
+levels(train_data$y) <- make.names(levels(train_data$y))
+validation_data$y <- as.factor(validation_data$y)
+levels(validation_data$y) <- make.names(levels(validation_data$y))
+
+#stratified sampling 
+folds <- createFolds(train_data$y , k = 5)
+#We specify summaryFunction so that we can use ROC as our metric for primary model selection later
+control <- trainControl(method='repeatedcv', number=5, repeats=3, index=folds, savePredictions='final', classProbs=TRUE, summaryFunction=twoClassSummary)
+algos <- c('rf', 'xgbTree', 'C5.0', 'nnet', 'glmStepAIC')
+models <- caretList(y ~ . , data=train_data, trControl=control, metric='ROC', methodList=algos)
+models_perf <- resamples(models)
+summary(models_perf)
+modelCor(models_perf)
+
+#Now, let's use xgboost as our meta model
+stack_control <- trainControl(method='repeatedcv', number=5, index=folds, repeats=3, classProbs=TRUE)
+stack_xgb <- caretStack(models, method='xgbTree', metric='ROC', trControl=stack_control,trace = FALSE )
+stack_xgb
+
+#Predict on training data
+stacking_prob_train <- 1 - predict(stack_xgb, train_data, type = "prob") #Gives probability of y = 1
+stacking_pred_train <- prediction(stacking_prob_train, labels=as.numeric(train_data$y)-1)
+performance(stacking_pred_train, 'auc')@y.values #T rainingAUC
+mean(predict(stack_xgb, train_data, type = "raw") == train_data$y) #Training Accuracy
+
+#Predict on validation data
+rf_prob_validation <- predict(models$rf, validation_data, type = "prob")[,"X1"] #Gives predictedprobability of y = 1
+rf_pred_validation <- prediction(rf_prob_validation, labels=as.numeric(validation_data$y)-1)
+performance(rf_pred_validation, 'auc')@y.values #RF Validation AUC
+
+xbg_prob_validation <- predict(models$xgbTree, validation_data, type = "prob")[,"X1"] #Gives predictedprobability of y = 1
+xgb_pred_validation <- prediction(xbg_prob_validation, labels=as.numeric(validation_data$y)-1)
+performance(xgb_pred_validation, 'auc')@y.values #XGB Validation AUC
+
+c50_prob_validation <- predict(models$C5.0, validation_data, type = "prob")[,"X1"] #Gives predictedprobability of y = 1
+c50_pred_validation <- prediction(c50_prob_validation, labels=as.numeric(validation_data$y)-1)
+performance(c50_pred_validation, 'auc')@y.values #C50 Validation AUC
+
+nnet_prob_validation <- predict(models$nnet, validation_data, type = "prob")[,"X1"] #Gives predictedprobability of y = 1
+nnet_pred_validation <- prediction(nnet_prob_validation, labels=as.numeric(validation_data$y)-1)
+performance(nnet_pred_validation, 'auc')@y.values #NNet Validation AUC
+
+glm_prob_validation <- predict(models$glmStepAIC, validation_data, type = "prob")[,"X1"] #Gives predictedprobability of y = 1
+glm_pred_validation <- prediction(glm_prob_validation, labels=as.numeric(validation_data$y)-1)
+performance(glm_pred_validation, 'auc')@y.values #GLM Validation AUC
+
+stacking_prob_validation <- 1 - predict(stack_xgb, validation_data, type = "prob") #Gives predicted probability of y = 1
+stacking_pred_validation <- prediction(stacking_prob_validation, labels=as.numeric(validation_data$y)-1)
+performance(stacking_pred_validation, 'auc')@y.values #Stacking Validation AUC
+mean(predict(stack_xgb, validation_data, type = "raw") == validation_data$y) #Stacking Validation Accuracy
+
+#Predict on the Toy Data
+stacking_prob_test <- 1 - predict(stack_xgb, test_data, type = "prob") #Gives predicted probability of y = 1
+write.csv(stacking_prob_test, 'A0074604J.csv')
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

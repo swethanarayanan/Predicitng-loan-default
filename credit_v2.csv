@@ -1,0 +1,1001 @@
+checking_balance,months_loan_duration,credit_history,purpose,amount,savings_balance,employment_length,installment_rate,personal_status,other_debtors,residence_history,property,age,installment_plan,housing,existing_credits,default,dependents,telephone,foreign_worker,job
+A,6,critical,radio_tv,1169,unknown,A,4,single_male,none,4,real_estate,67,none,own,2,1,1,yes,yes,skilled_employee
+C,48,repaid,radio_tv,5951,A,C,2,female,none,2,real_estate,22,none,own,1,2,1,none,yes,skilled_employee
+unknown,12,critical,education,2096,A,D,2,single_male,none,3,real_estate,49,none,own,1,1,2,none,yes,unskilled_resident
+A,42,repaid,furniture,7882,A,D,2,single_male,guarantor,4,building_society_savings,45,none,for_free,1,1,2,none,yes,skilled_employee
+A,24,delayed,car_new,4870,A,C,3,single_male,none,4,unknown_none,53,none,for_free,2,2,2,none,yes,skilled_employee
+unknown,36,repaid,education,9055,unknown,C,2,single_male,none,4,unknown_none,35,none,for_free,1,1,2,yes,yes,unskilled_resident
+unknown,24,repaid,furniture,2835,D,A,3,single_male,none,4,building_society_savings,53,none,own,1,1,1,none,yes,skilled_employee
+C,36,repaid,car_used,6948,A,C,2,single_male,none,2,other,35,none,rent,1,1,1,yes,yes,mangement_self_employed
+unknown,12,repaid,radio_tv,3059,B,D,2,divorced_male,none,4,real_estate,61,none,own,1,1,1,none,yes,unskilled_resident
+C,30,critical,car_new,5234,A,unemployed,4,married_male,none,2,other,28,none,own,2,2,1,none,yes,mangement_self_employed
+C,12,repaid,car_new,1295,A,B,3,female,none,1,other,25,none,rent,1,2,1,none,yes,skilled_employee
+A,48,repaid,business,4308,A,B,3,female,none,4,building_society_savings,24,none,rent,1,2,1,none,yes,skilled_employee
+C,12,repaid,radio_tv,1567,A,C,1,female,none,1,other,22,none,own,1,1,1,yes,yes,skilled_employee
+A,24,critical,car_new,1199,A,A,4,single_male,none,4,other,60,none,own,2,2,1,none,yes,unskilled_resident
+A,15,repaid,car_new,1403,A,C,2,female,none,4,other,28,none,rent,1,1,1,none,yes,skilled_employee
+A,24,repaid,radio_tv,1282,C,C,4,female,none,2,other,32,none,own,1,2,1,none,yes,unskilled_resident
+unknown,24,critical,radio_tv,2424,unknown,A,4,single_male,none,4,building_society_savings,53,none,own,2,1,1,none,yes,skilled_employee
+A,30,fully repaid,business,8072,unknown,B,2,single_male,none,3,other,25,bank,own,3,1,1,none,yes,skilled_employee
+C,24,repaid,car_used,12579,A,A,4,female,none,2,unknown_none,44,none,for_free,1,2,1,yes,yes,mangement_self_employed
+unknown,24,repaid,radio_tv,3430,D,A,3,single_male,none,2,other,31,none,own,1,1,2,yes,yes,skilled_employee
+unknown,9,critical,car_new,2134,A,C,4,single_male,none,4,other,48,none,own,3,1,1,yes,yes,skilled_employee
+A,6,repaid,radio_tv,2647,D,C,2,single_male,none,3,real_estate,44,none,rent,1,1,2,none,yes,skilled_employee
+A,10,critical,car_new,2241,A,B,1,single_male,none,3,real_estate,48,none,rent,2,1,2,none,no,unskilled_resident
+C,12,critical,car_used,1804,C,B,3,single_male,none,4,building_society_savings,44,none,own,1,1,1,none,yes,skilled_employee
+unknown,10,critical,furniture,2069,unknown,C,2,married_male,none,1,other,26,none,own,2,1,1,none,no,skilled_employee
+A,6,repaid,furniture,1374,A,C,1,single_male,none,2,real_estate,36,bank,own,1,1,1,yes,yes,unskilled_resident
+unknown,6,fully repaid,radio_tv,426,A,A,4,married_male,none,4,other,39,none,own,1,1,1,none,yes,unskilled_resident
+B,12,fully repaid this bank,radio_tv,409,B,C,3,female,none,3,real_estate,42,none,rent,2,1,1,none,yes,skilled_employee
+C,7,repaid,radio_tv,2415,A,C,3,single_male,guarantor,2,real_estate,34,none,own,1,1,1,none,yes,skilled_employee
+A,60,delayed,business,6836,A,A,3,single_male,none,4,unknown_none,63,none,own,2,2,1,yes,yes,skilled_employee
+C,18,repaid,business,1913,B,B,3,married_male,none,3,real_estate,36,bank,own,1,1,1,yes,yes,skilled_employee
+A,24,repaid,furniture,4020,A,C,2,single_male,none,2,other,27,stores,own,1,1,1,none,yes,skilled_employee
+C,18,repaid,car_new,5866,C,C,2,single_male,none,2,other,30,none,own,2,1,1,yes,yes,skilled_employee
+unknown,12,critical,business,1264,unknown,A,4,single_male,none,4,unknown_none,57,none,rent,1,1,1,none,yes,unskilled_resident
+B,12,repaid,furniture,1474,A,B,4,female,none,1,building_society_savings,33,bank,own,1,1,1,yes,yes,mangement_self_employed
+C,45,critical,radio_tv,4746,A,B,4,single_male,none,2,building_society_savings,25,none,own,2,2,1,none,yes,unskilled_resident
+unknown,48,critical,education,6110,A,C,1,single_male,none,3,unknown_none,31,bank,for_free,1,1,1,yes,yes,skilled_employee
+B,18,repaid,radio_tv,2100,A,C,4,single_male,co-applicant,2,real_estate,37,stores,own,1,2,1,none,yes,skilled_employee
+B,10,repaid,domestic appliances,1225,A,C,2,single_male,none,2,other,37,none,own,1,1,1,yes,yes,skilled_employee
+C,9,repaid,radio_tv,458,A,C,4,single_male,none,3,real_estate,24,none,own,1,1,1,none,yes,skilled_employee
+unknown,30,repaid,radio_tv,2333,D,A,4,single_male,none,2,other,30,bank,own,1,1,1,none,yes,mangement_self_employed
+C,12,repaid,radio_tv,1158,D,C,3,divorced_male,none,1,other,26,none,own,1,1,1,yes,yes,skilled_employee
+C,18,delayed,repairs,6204,A,C,2,single_male,none,4,real_estate,44,none,own,1,1,2,yes,yes,unskilled_resident
+A,30,critical,car_used,6187,C,D,1,married_male,none,4,other,24,none,rent,2,1,1,none,yes,skilled_employee
+A,48,critical,car_used,6143,A,A,4,female,none,4,unknown_none,58,stores,for_free,2,2,1,none,yes,unskilled_resident
+unknown,11,critical,car_new,1393,A,B,4,female,none,4,other,35,none,own,2,1,1,none,yes,mangement_self_employed
+unknown,36,repaid,radio_tv,2299,D,A,4,single_male,none,4,other,39,none,own,1,1,1,none,yes,skilled_employee
+A,6,repaid,car_used,1352,D,unemployed,1,female,none,2,building_society_savings,23,none,rent,1,1,1,yes,yes,unemployed_non_resident
+unknown,11,critical,car_new,7228,A,C,1,single_male,none,4,building_society_savings,39,none,own,2,1,1,none,yes,unskilled_resident
+unknown,12,repaid,radio_tv,2073,C,C,4,female,co-applicant,2,real_estate,28,none,own,1,1,1,none,yes,skilled_employee
+C,24,delayed,furniture,2333,unknown,B,4,single_male,none,2,building_society_savings,29,bank,own,1,1,1,none,yes,unskilled_resident
+C,27,delayed,car_used,5965,A,A,1,single_male,none,2,other,30,none,own,2,1,1,yes,yes,mangement_self_employed
+unknown,12,repaid,radio_tv,1262,A,C,3,single_male,none,2,other,25,none,own,1,1,1,none,yes,skilled_employee
+unknown,18,repaid,car_used,3378,unknown,C,2,single_male,none,1,building_society_savings,31,none,own,1,1,1,yes,yes,skilled_employee
+C,36,delayed,car_new,2225,A,A,4,single_male,none,4,unknown_none,57,bank,for_free,2,2,1,yes,yes,skilled_employee
+unknown,6,fully repaid this bank,car_new,783,unknown,C,1,single_male,guarantor,2,real_estate,26,stores,own,1,1,2,none,yes,unskilled_resident
+C,12,repaid,radio_tv,6468,unknown,unemployed,2,single_male,none,1,unknown_none,52,none,own,1,2,1,yes,yes,mangement_self_employed
+unknown,36,critical,radio_tv,9566,A,C,2,female,none,2,other,31,stores,own,2,1,1,none,yes,skilled_employee
+B,18,repaid,car_new,1961,A,A,3,female,none,2,other,23,none,own,1,1,1,none,yes,mangement_self_employed
+A,36,critical,furniture,6229,A,B,4,female,co-applicant,4,unknown_none,23,none,rent,2,2,1,yes,yes,unskilled_resident
+C,9,repaid,business,1391,A,C,2,married_male,none,1,real_estate,27,bank,own,1,1,1,yes,yes,skilled_employee
+C,15,critical,radio_tv,1537,unknown,A,4,single_male,guarantor,4,real_estate,50,none,own,2,1,1,yes,yes,skilled_employee
+C,36,fully repaid,business,1953,A,A,4,single_male,none,4,unknown_none,61,none,for_free,1,2,1,yes,yes,mangement_self_employed
+C,48,fully repaid,business,14421,A,C,2,single_male,none,2,other,25,none,own,1,2,1,yes,yes,skilled_employee
+unknown,24,repaid,radio_tv,3181,A,B,4,female,none,4,building_society_savings,26,none,own,1,1,1,yes,yes,skilled_employee
+unknown,27,repaid,repairs,5190,unknown,A,4,single_male,none,4,building_society_savings,48,none,own,4,1,2,yes,yes,skilled_employee
+unknown,12,repaid,radio_tv,2171,A,B,2,female,none,2,other,29,bank,own,1,1,1,none,yes,skilled_employee
+C,12,repaid,car_new,1007,B,C,4,married_male,none,1,real_estate,22,none,own,1,1,1,none,yes,skilled_employee
+unknown,36,repaid,education,1819,A,C,4,single_male,none,4,unknown_none,37,stores,for_free,1,2,1,yes,yes,skilled_employee
+unknown,36,repaid,radio_tv,2394,unknown,C,4,female,none,4,other,25,none,own,1,1,1,none,yes,skilled_employee
+unknown,36,repaid,car_used,8133,A,C,1,female,none,2,building_society_savings,30,bank,own,1,1,1,none,yes,skilled_employee
+unknown,7,critical,radio_tv,730,unknown,A,4,single_male,none,2,building_society_savings,46,none,rent,2,1,1,yes,yes,unskilled_resident
+A,8,critical,others,1164,A,A,3,single_male,none,4,unknown_none,51,bank,for_free,2,1,2,yes,yes,mangement_self_employed
+C,42,critical,business,5954,A,D,2,female,none,1,real_estate,41,bank,own,2,1,1,none,yes,unskilled_resident
+A,36,repaid,education,1977,unknown,A,4,single_male,none,4,unknown_none,40,none,own,1,2,1,yes,yes,mangement_self_employed
+A,12,critical,car_used,1526,A,A,4,single_male,none,4,unknown_none,66,none,for_free,2,1,1,none,yes,mangement_self_employed
+A,42,repaid,radio_tv,3965,A,B,4,single_male,none,3,other,34,none,own,1,2,1,none,yes,skilled_employee
+C,11,delayed,radio_tv,4771,A,D,2,single_male,none,4,building_society_savings,51,none,own,1,1,1,none,yes,skilled_employee
+unknown,54,fully repaid,car_used,9436,unknown,C,2,single_male,none,2,building_society_savings,39,none,own,1,1,2,none,yes,unskilled_resident
+C,30,repaid,furniture,3832,A,B,2,married_male,none,1,building_society_savings,22,none,own,1,1,1,none,yes,skilled_employee
+unknown,24,repaid,radio_tv,5943,unknown,B,1,female,none,1,other,44,none,own,2,2,1,yes,yes,skilled_employee
+unknown,15,repaid,radio_tv,1213,D,A,4,single_male,none,3,building_society_savings,47,stores,own,1,1,1,yes,yes,skilled_employee
+unknown,18,repaid,business,1568,C,C,3,female,none,4,building_society_savings,24,none,rent,1,1,1,none,yes,unskilled_resident
+A,24,repaid,others,1755,A,A,4,female,guarantor,4,real_estate,58,none,own,1,1,1,yes,yes,unskilled_resident
+A,10,repaid,radio_tv,2315,A,A,3,single_male,none,4,real_estate,52,none,own,1,1,1,none,yes,unskilled_resident
+unknown,12,critical,business,1412,A,C,4,female,guarantor,2,real_estate,29,none,own,2,1,1,yes,yes,mangement_self_employed
+C,18,critical,furniture,1295,A,B,4,female,none,1,building_society_savings,27,none,own,2,1,1,none,yes,skilled_employee
+C,36,repaid,education,12612,C,C,1,single_male,none,4,unknown_none,47,none,for_free,1,2,2,yes,yes,skilled_employee
+A,18,repaid,car_new,2249,C,D,4,single_male,none,3,other,30,none,own,1,1,2,yes,yes,mangement_self_employed
+A,12,fully repaid,repairs,1108,A,D,4,single_male,none,3,real_estate,28,none,own,2,2,1,none,yes,skilled_employee
+unknown,12,critical,radio_tv,618,A,A,4,single_male,none,4,real_estate,56,none,own,1,1,1,none,yes,skilled_employee
+A,12,critical,car_used,1409,A,A,4,single_male,none,3,real_estate,54,none,own,1,1,1,none,yes,skilled_employee
+unknown,12,critical,radio_tv,797,unknown,A,4,female,none,3,building_society_savings,33,bank,own,1,2,2,none,yes,unskilled_resident
+B,24,critical,furniture,3617,unknown,A,4,single_male,co-applicant,4,unknown_none,20,none,rent,2,1,1,none,yes,skilled_employee
+C,12,repaid,car_new,1318,B,A,4,single_male,none,4,real_estate,54,none,own,1,1,1,yes,yes,skilled_employee
+C,54,fully repaid,business,15945,A,B,3,single_male,none,4,unknown_none,58,none,rent,1,2,1,yes,yes,skilled_employee
+unknown,12,critical,education,2012,unknown,D,4,female,none,2,other,61,none,own,1,1,1,none,yes,skilled_employee
+C,18,repaid,business,2622,C,C,4,single_male,none,4,other,34,none,own,1,1,1,none,yes,skilled_employee
+C,36,critical,radio_tv,2337,A,A,4,single_male,none,4,real_estate,36,none,own,1,1,1,none,yes,skilled_employee
+C,20,delayed,car_used,7057,unknown,D,3,single_male,none,4,building_society_savings,36,bank,rent,2,1,2,yes,yes,mangement_self_employed
+unknown,24,repaid,car_new,1469,C,A,4,married_male,none,4,real_estate,41,none,rent,1,1,1,none,yes,unskilled_resident
+C,36,repaid,radio_tv,2323,A,D,4,single_male,none,4,other,24,none,rent,1,1,1,none,yes,skilled_employee
+unknown,6,delayed,radio_tv,932,A,C,3,female,none,2,real_estate,24,none,own,1,1,1,none,yes,skilled_employee
+C,9,critical,furniture,1919,A,D,4,single_male,none,3,other,35,none,rent,1,1,1,yes,yes,skilled_employee
+unknown,12,repaid,car_used,2445,unknown,B,2,married_male,none,4,other,26,none,rent,1,1,1,yes,yes,skilled_employee
+C,24,critical,others,11938,A,C,2,single_male,co-applicant,3,other,39,none,own,2,2,2,yes,yes,mangement_self_employed
+unknown,18,fully repaid this bank,car_new,6458,A,A,2,single_male,none,4,unknown_none,39,bank,own,2,2,2,yes,yes,mangement_self_employed
+C,12,repaid,car_new,6078,A,D,2,single_male,none,2,other,32,none,own,1,1,1,none,yes,skilled_employee
+A,24,repaid,furniture,7721,unknown,B,1,female,none,2,building_society_savings,30,none,own,1,1,1,yes,no,skilled_employee
+C,14,repaid,business,1410,D,A,1,married_male,none,2,real_estate,35,none,own,1,1,1,yes,yes,skilled_employee
+C,6,delayed,business,1449,C,A,1,divorced_male,none,2,other,31,bank,own,2,1,2,none,yes,skilled_employee
+B,15,repaid,education,392,A,B,4,female,none,4,building_society_savings,23,none,rent,1,1,1,yes,yes,skilled_employee
+C,18,repaid,car_new,6260,A,D,3,single_male,none,3,real_estate,28,none,rent,1,1,1,none,yes,unskilled_resident
+unknown,36,critical,car_new,7855,A,C,4,female,none,2,real_estate,25,stores,own,2,2,1,yes,yes,skilled_employee
+A,12,repaid,radio_tv,1680,D,A,3,married_male,none,1,real_estate,35,none,own,1,1,1,none,yes,skilled_employee
+unknown,48,critical,radio_tv,3578,unknown,A,4,single_male,none,1,real_estate,47,none,own,1,1,1,yes,yes,skilled_employee
+A,42,repaid,radio_tv,7174,unknown,D,4,female,none,3,other,30,none,own,1,2,1,yes,yes,mangement_self_employed
+A,10,critical,furniture,2132,unknown,B,2,female,co-applicant,3,real_estate,27,none,rent,2,1,1,none,no,skilled_employee
+A,33,critical,furniture,4281,D,C,1,female,none,4,other,23,none,own,2,2,1,none,yes,skilled_employee
+C,12,critical,car_new,2366,D,D,3,divorced_male,none,3,other,36,none,own,1,1,1,yes,yes,mangement_self_employed
+A,21,repaid,radio_tv,1835,A,C,3,female,none,2,real_estate,25,none,own,2,2,1,yes,yes,skilled_employee
+unknown,24,critical,car_used,3868,A,A,4,female,none,2,other,41,none,rent,2,1,1,yes,yes,mangement_self_employed
+unknown,12,repaid,furniture,1768,A,C,3,single_male,none,2,real_estate,24,none,rent,1,1,1,none,yes,unskilled_resident
+B,10,critical,car_new,781,A,A,4,single_male,none,4,unknown_none,63,none,for_free,2,1,1,yes,yes,skilled_employee
+C,18,repaid,furniture,1924,unknown,B,4,female,none,3,real_estate,27,none,rent,1,2,1,none,yes,skilled_employee
+A,12,critical,car_new,2121,A,C,4,single_male,none,2,building_society_savings,30,none,own,2,1,1,none,yes,skilled_employee
+A,12,repaid,radio_tv,701,A,C,4,married_male,none,2,real_estate,40,none,own,1,1,1,none,yes,unskilled_resident
+C,12,repaid,repairs,639,A,C,4,single_male,none,2,other,30,none,own,1,2,1,none,yes,skilled_employee
+C,12,critical,car_used,1860,A,unemployed,4,single_male,none,2,other,34,none,own,2,1,1,yes,yes,mangement_self_employed
+A,12,critical,car_new,3499,A,C,3,female,co-applicant,2,real_estate,29,none,own,2,2,1,none,yes,skilled_employee
+C,48,repaid,car_new,8487,unknown,D,1,female,none,2,other,24,none,own,1,1,1,none,yes,skilled_employee
+A,36,delayed,education,6887,A,C,4,single_male,none,3,building_society_savings,29,stores,own,1,2,1,yes,yes,skilled_employee
+unknown,15,repaid,furniture,2708,A,B,2,single_male,none,3,building_society_savings,27,bank,own,2,1,1,none,yes,unskilled_resident
+unknown,18,repaid,furniture,1984,A,C,4,single_male,none,4,unknown_none,47,bank,for_free,2,1,1,none,yes,skilled_employee
+unknown,60,repaid,radio_tv,10144,C,D,2,female,none,4,real_estate,21,none,own,1,1,1,yes,yes,skilled_employee
+unknown,12,critical,radio_tv,1240,unknown,A,4,female,none,2,real_estate,38,none,own,2,1,1,yes,yes,skilled_employee
+unknown,27,delayed,car_used,8613,B,C,2,single_male,none,2,other,27,none,own,2,1,1,none,yes,skilled_employee
+C,12,repaid,radio_tv,766,D,C,4,single_male,none,3,real_estate,66,none,own,1,2,1,none,yes,unskilled_resident
+C,15,critical,radio_tv,2728,unknown,D,4,single_male,guarantor,2,real_estate,35,bank,own,3,1,1,yes,yes,skilled_employee
+B,12,repaid,radio_tv,1881,A,C,2,female,none,2,other,44,none,rent,1,1,1,yes,yes,unskilled_resident
+B,6,repaid,car_new,709,B,B,2,married_male,none,2,real_estate,27,none,own,1,1,1,none,no,unemployed_non_resident
+C,36,repaid,radio_tv,4795,A,B,4,female,none,1,unknown_none,30,none,own,1,1,1,yes,yes,mangement_self_employed
+A,27,repaid,radio_tv,3416,A,C,3,single_male,none,2,other,27,none,own,1,1,1,none,yes,mangement_self_employed
+A,18,repaid,furniture,2462,A,C,2,single_male,none,2,other,22,none,own,1,2,1,none,yes,skilled_employee
+unknown,21,critical,furniture,2288,A,B,4,female,none,4,building_society_savings,23,none,own,1,1,1,yes,yes,skilled_employee
+C,48,fully repaid this bank,business,3566,C,D,4,single_male,none,2,other,30,none,own,1,1,1,none,yes,skilled_employee
+A,6,critical,car_new,860,A,A,1,female,none,4,unknown_none,39,none,own,2,1,1,yes,yes,skilled_employee
+unknown,12,critical,car_new,682,C,D,4,female,none,3,other,51,none,own,2,1,1,yes,yes,skilled_employee
+A,36,critical,furniture,5371,A,C,3,single_male,guarantor,2,building_society_savings,28,none,own,2,1,1,none,yes,skilled_employee
+unknown,18,critical,radio_tv,1582,B,A,4,single_male,none,4,other,46,none,own,2,1,1,none,yes,skilled_employee
+unknown,6,repaid,radio_tv,1346,C,A,2,single_male,none,4,unknown_none,42,bank,for_free,1,1,2,yes,yes,skilled_employee
+unknown,10,repaid,radio_tv,1924,A,C,1,single_male,none,4,building_society_savings,38,none,own,1,1,1,yes,no,skilled_employee
+B,36,repaid,radio_tv,5848,A,C,4,single_male,none,1,other,24,none,own,1,1,1,none,yes,skilled_employee
+C,24,critical,car_used,7758,B,A,2,female,none,4,unknown_none,29,none,rent,1,1,1,none,yes,skilled_employee
+C,24,delayed,business,6967,C,D,4,single_male,none,4,other,36,none,rent,1,1,1,yes,yes,mangement_self_employed
+A,12,repaid,furniture,1282,A,C,2,female,none,4,other,20,none,rent,1,2,1,none,yes,skilled_employee
+A,9,critical,repairs,1288,C,A,3,single_male,guarantor,4,real_estate,48,none,own,2,1,2,none,no,skilled_employee
+A,12,fully repaid this bank,retraining,339,A,A,4,married_male,none,1,other,45,bank,own,1,1,1,none,yes,unskilled_resident
+C,24,repaid,car_new,3512,C,D,2,single_male,none,3,other,38,bank,own,2,1,1,yes,yes,skilled_employee
+unknown,6,critical,radio_tv,1898,unknown,C,1,single_male,none,2,real_estate,34,none,own,2,1,2,none,yes,unskilled_resident
+unknown,24,critical,radio_tv,2872,C,A,3,single_male,none,4,real_estate,36,none,own,1,1,2,yes,yes,skilled_employee
+unknown,18,critical,car_new,1055,A,B,4,female,none,1,building_society_savings,30,none,own,2,1,1,none,yes,skilled_employee
+unknown,15,repaid,domestic appliances,1262,D,D,4,single_male,none,3,building_society_savings,36,none,own,2,1,1,yes,yes,skilled_employee
+C,10,repaid,car_new,7308,A,unemployed,2,single_male,none,4,unknown_none,70,bank,for_free,1,1,1,yes,yes,mangement_self_employed
+unknown,36,repaid,car_new,909,D,A,4,single_male,none,4,building_society_savings,36,none,own,1,1,1,none,yes,skilled_employee
+unknown,6,repaid,furniture,2978,D,C,1,single_male,none,2,other,32,none,own,1,1,1,yes,yes,skilled_employee
+A,18,repaid,furniture,1131,A,unemployed,4,female,none,2,other,33,none,own,1,2,1,none,yes,skilled_employee
+C,11,repaid,furniture,1577,B,B,4,female,none,1,real_estate,20,none,own,1,1,1,none,yes,skilled_employee
+unknown,24,repaid,furniture,3972,A,D,2,female,none,4,building_society_savings,25,none,rent,1,1,1,yes,yes,skilled_employee
+C,24,critical,business,1935,A,A,4,divorced_male,none,4,real_estate,31,none,own,2,2,1,yes,yes,skilled_employee
+A,15,fully repaid,car_new,950,A,A,4,single_male,none,3,other,33,none,rent,2,2,2,none,yes,skilled_employee
+unknown,12,repaid,furniture,763,A,C,4,female,none,1,real_estate,26,none,own,1,1,1,yes,yes,skilled_employee
+C,24,delayed,furniture,2064,A,unemployed,3,female,none,2,building_society_savings,34,none,own,1,2,1,yes,yes,mangement_self_employed
+C,8,repaid,radio_tv,1414,A,C,4,single_male,guarantor,2,real_estate,33,none,own,1,1,1,none,no,skilled_employee
+A,21,delayed,education,3414,A,B,2,single_male,none,1,building_society_savings,26,none,own,2,2,1,none,yes,skilled_employee
+unknown,30,fully repaid this bank,car_used,7485,unknown,unemployed,4,female,none,1,real_estate,53,bank,own,1,2,1,yes,yes,mangement_self_employed
+A,12,repaid,furniture,2577,A,C,2,divorced_male,none,1,other,42,none,own,1,1,1,none,yes,skilled_employee
+A,6,critical,radio_tv,338,D,A,4,single_male,none,4,other,52,none,own,2,1,1,none,yes,skilled_employee
+unknown,12,repaid,radio_tv,1963,A,D,4,single_male,none,2,other,31,none,rent,2,1,2,yes,yes,mangement_self_employed
+A,21,critical,car_new,571,A,A,4,single_male,none,4,real_estate,65,none,own,2,1,1,none,yes,skilled_employee
+unknown,36,delayed,business,9572,A,B,1,divorced_male,none,1,other,28,none,own,2,2,1,none,yes,skilled_employee
+C,36,delayed,business,4455,A,C,2,divorced_male,none,2,real_estate,30,stores,own,2,2,1,yes,yes,mangement_self_employed
+A,21,fully repaid this bank,car_new,1647,unknown,C,4,single_male,none,2,building_society_savings,40,none,own,2,2,2,none,yes,unskilled_resident
+unknown,24,critical,furniture,3777,B,C,4,single_male,none,4,real_estate,50,none,own,1,1,1,yes,yes,skilled_employee
+C,18,critical,car_new,884,A,A,4,single_male,none,4,other,36,bank,own,1,2,2,yes,yes,skilled_employee
+unknown,15,critical,radio_tv,1360,A,C,4,single_male,none,2,building_society_savings,31,none,own,2,1,1,none,yes,skilled_employee
+C,9,fully repaid this bank,car_used,5129,A,A,2,female,none,4,unknown_none,74,bank,for_free,1,2,2,yes,yes,mangement_self_employed
+C,16,critical,car_new,1175,A,unemployed,2,single_male,none,3,other,68,none,for_free,3,1,1,yes,yes,unemployed_non_resident
+A,12,repaid,radio_tv,674,C,D,4,married_male,none,1,building_society_savings,20,none,own,1,2,1,none,yes,skilled_employee
+C,18,fully repaid,furniture,3244,A,C,1,female,none,4,other,33,bank,own,2,1,1,yes,yes,skilled_employee
+unknown,24,repaid,business,4591,B,C,2,single_male,none,3,building_society_savings,54,none,own,3,2,1,yes,yes,mangement_self_employed
+C,48,fully repaid,business,3844,C,D,4,single_male,none,4,unknown_none,34,none,for_free,1,2,2,none,yes,unskilled_resident
+C,27,repaid,business,3915,A,C,4,single_male,none,2,other,36,none,own,1,2,2,yes,yes,skilled_employee
+unknown,6,repaid,radio_tv,2108,A,D,2,married_male,none,2,real_estate,29,none,rent,1,1,1,none,yes,skilled_employee
+C,45,repaid,radio_tv,3031,C,C,4,single_male,guarantor,4,building_society_savings,21,none,rent,1,2,1,none,yes,skilled_employee
+C,9,critical,education,1501,A,A,2,female,none,3,other,34,none,own,2,2,1,yes,yes,mangement_self_employed
+unknown,6,critical,radio_tv,1382,A,C,1,female,none,1,other,28,none,own,2,1,1,yes,yes,skilled_employee
+C,12,repaid,furniture,951,C,B,4,female,none,4,other,27,bank,rent,4,2,1,none,yes,skilled_employee
+C,24,repaid,car_used,2760,unknown,A,4,single_male,none,4,unknown_none,36,bank,for_free,1,1,1,yes,yes,skilled_employee
+C,18,delayed,furniture,4297,A,A,4,divorced_male,none,3,unknown_none,40,none,own,1,2,1,yes,yes,mangement_self_employed
+unknown,9,critical,education,936,D,A,4,single_male,none,2,other,52,none,own,2,1,1,yes,yes,skilled_employee
+A,12,repaid,car_new,1168,A,C,4,married_male,none,3,real_estate,27,none,own,1,1,1,none,yes,unskilled_resident
+unknown,27,delayed,business,5117,A,D,3,single_male,none,4,other,26,none,own,2,1,1,none,yes,skilled_employee
+A,12,repaid,retraining,902,A,D,4,married_male,none,4,building_society_savings,21,none,rent,1,2,1,none,yes,skilled_employee
+unknown,12,critical,car_new,1495,A,A,4,single_male,none,1,real_estate,38,none,own,2,1,2,none,yes,unskilled_resident
+A,30,critical,car_used,10623,A,A,3,single_male,none,4,unknown_none,38,none,for_free,3,1,2,yes,yes,mangement_self_employed
+unknown,12,critical,furniture,1935,A,A,4,single_male,none,4,real_estate,43,none,own,3,1,1,yes,yes,skilled_employee
+C,12,critical,domestic appliances,1424,A,D,4,single_male,none,3,building_society_savings,26,none,own,1,1,1,none,yes,skilled_employee
+A,24,repaid,business,6568,A,C,2,married_male,none,2,other,21,stores,own,1,1,1,none,yes,unskilled_resident
+unknown,12,repaid,car_used,1413,B,D,3,single_male,none,2,building_society_savings,55,none,own,1,1,1,none,no,skilled_employee
+unknown,9,critical,radio_tv,3074,unknown,C,1,single_male,none,2,real_estate,33,none,own,2,1,2,none,yes,skilled_employee
+unknown,36,repaid,radio_tv,3835,unknown,A,2,female,none,4,real_estate,45,none,own,1,1,1,yes,yes,unskilled_resident
+A,27,fully repaid,business,5293,A,unemployed,2,single_male,none,4,building_society_savings,50,stores,own,2,2,1,yes,yes,skilled_employee
+B,30,delayed,business,1908,A,A,4,single_male,none,4,real_estate,66,none,own,1,2,1,yes,yes,mangement_self_employed
+unknown,36,critical,radio_tv,3342,unknown,A,4,single_male,none,2,other,51,none,own,1,1,1,yes,yes,skilled_employee
+C,6,critical,retraining,932,unknown,D,1,female,none,3,building_society_savings,39,none,own,2,1,1,none,yes,unskilled_resident
+A,18,fully repaid,business,3104,A,D,3,single_male,none,1,building_society_savings,31,bank,own,1,1,1,yes,yes,skilled_employee
+B,36,repaid,radio_tv,3913,A,C,2,single_male,none,2,real_estate,23,none,own,1,1,1,yes,yes,skilled_employee
+A,24,repaid,furniture,3021,A,C,2,divorced_male,none,2,real_estate,24,none,rent,1,1,1,none,yes,unskilled_resident
+unknown,10,repaid,car_new,1364,A,C,2,female,none,4,other,64,none,own,1,1,1,yes,yes,skilled_employee
+C,12,repaid,radio_tv,625,A,B,4,married_male,guarantor,1,real_estate,26,bank,own,1,1,1,none,yes,unskilled_resident
+A,12,repaid,education,1200,unknown,C,4,female,none,4,building_society_savings,23,bank,rent,1,1,1,yes,yes,skilled_employee
+unknown,12,repaid,radio_tv,707,A,C,4,single_male,none,2,real_estate,30,bank,own,2,1,1,none,yes,skilled_employee
+unknown,24,delayed,business,2978,unknown,C,4,single_male,none,4,real_estate,32,none,own,2,1,2,yes,yes,skilled_employee
+unknown,15,repaid,car_used,4657,A,C,3,single_male,none,2,other,30,none,own,1,1,1,yes,yes,skilled_employee
+unknown,36,fully repaid,repairs,2613,A,C,4,single_male,none,2,other,27,none,own,2,1,1,none,yes,skilled_employee
+C,48,repaid,radio_tv,10961,B,D,1,single_male,co-applicant,2,unknown_none,27,bank,own,2,2,1,yes,yes,skilled_employee
+A,12,repaid,furniture,7865,A,A,4,single_male,none,4,unknown_none,53,none,for_free,1,2,1,yes,yes,mangement_self_employed
+unknown,9,repaid,radio_tv,1478,A,D,4,single_male,none,2,other,22,none,own,1,2,1,none,yes,skilled_employee
+A,24,repaid,furniture,3149,A,B,4,single_male,none,1,unknown_none,22,bank,for_free,1,1,1,none,yes,skilled_employee
+B,36,repaid,radio_tv,4210,A,C,4,single_male,none,2,other,26,none,own,1,2,1,none,yes,skilled_employee
+unknown,9,repaid,car_new,2507,D,A,2,single_male,none,4,unknown_none,51,none,for_free,1,1,1,none,yes,unskilled_resident
+unknown,12,repaid,radio_tv,2141,C,D,3,single_male,none,1,unknown_none,35,none,own,1,1,1,none,yes,skilled_employee
+C,18,repaid,radio_tv,866,A,C,4,married_male,guarantor,2,real_estate,25,none,own,1,1,1,none,yes,unskilled_resident
+unknown,4,critical,radio_tv,1544,A,D,2,single_male,none,1,real_estate,42,none,own,3,1,2,none,yes,unskilled_resident
+A,24,repaid,radio_tv,1823,A,unemployed,4,single_male,none,2,other,30,stores,own,1,2,2,none,yes,mangement_self_employed
+C,6,repaid,car_new,14555,unknown,unemployed,1,single_male,none,2,building_society_savings,23,none,own,1,2,1,yes,yes,unemployed_non_resident
+C,21,repaid,business,2767,C,A,4,divorced_male,none,2,other,61,bank,rent,2,2,1,none,yes,unskilled_resident
+unknown,12,critical,radio_tv,1291,A,C,4,female,none,2,building_society_savings,35,none,own,2,1,1,none,yes,skilled_employee
+A,30,repaid,radio_tv,2522,A,A,1,single_male,guarantor,3,building_society_savings,39,none,own,1,1,2,none,yes,skilled_employee
+A,24,repaid,car_new,915,unknown,A,4,female,none,2,other,29,bank,own,1,2,1,none,yes,skilled_employee
+unknown,6,repaid,radio_tv,1595,A,D,3,single_male,none,2,building_society_savings,51,none,own,1,1,2,none,yes,skilled_employee
+A,48,fully repaid,car_used,4605,A,A,3,single_male,none,4,unknown_none,24,none,for_free,2,2,2,none,yes,skilled_employee
+unknown,12,critical,business,1185,A,C,3,female,none,2,real_estate,27,none,own,2,1,1,none,yes,skilled_employee
+unknown,12,fully repaid this bank,retraining,3447,D,C,4,female,none,3,real_estate,35,none,own,1,1,2,none,yes,unskilled_resident
+unknown,24,repaid,business,1258,A,D,4,single_male,none,1,real_estate,25,none,own,1,1,1,yes,yes,skilled_employee
+unknown,12,critical,radio_tv,717,A,A,4,single_male,none,4,real_estate,52,none,own,3,1,1,none,yes,skilled_employee
+unknown,6,fully repaid,car_new,1204,C,C,4,single_male,none,1,unknown_none,35,bank,rent,1,1,1,none,no,skilled_employee
+B,24,repaid,furniture,1925,A,C,2,single_male,none,2,real_estate,26,none,own,1,1,1,none,yes,skilled_employee
+unknown,18,repaid,radio_tv,433,A,unemployed,3,female,co-applicant,4,real_estate,22,none,rent,1,2,1,none,yes,skilled_employee
+A,6,critical,car_new,666,B,D,3,female,none,4,real_estate,39,none,own,2,1,1,yes,yes,unskilled_resident
+B,12,repaid,furniture,2251,A,C,1,female,none,2,other,46,none,own,1,1,1,none,yes,unskilled_resident
+C,30,repaid,car_new,2150,A,C,4,female,guarantor,2,unknown_none,24,bank,own,1,2,1,none,yes,skilled_employee
+unknown,24,delayed,furniture,4151,C,C,2,single_male,none,3,building_society_savings,35,none,own,2,1,1,none,yes,skilled_employee
+C,9,repaid,furniture,2030,unknown,D,2,single_male,none,1,other,24,none,own,1,1,1,yes,yes,skilled_employee
+C,60,delayed,radio_tv,7418,unknown,C,1,single_male,none,1,real_estate,27,none,own,1,1,1,none,yes,unskilled_resident
+unknown,24,critical,radio_tv,2684,A,C,4,single_male,none,2,real_estate,35,none,own,2,1,1,none,yes,unskilled_resident
+A,12,fully repaid this bank,radio_tv,2149,A,C,4,divorced_male,none,1,unknown_none,29,none,for_free,1,2,1,none,yes,skilled_employee
+unknown,15,repaid,car_used,3812,C,B,1,female,none,4,other,23,none,own,1,1,1,yes,yes,skilled_employee
+unknown,11,critical,radio_tv,1154,C,unemployed,4,female,none,4,real_estate,57,none,own,3,1,1,none,yes,unskilled_resident
+A,12,repaid,furniture,1657,A,C,2,single_male,none,2,real_estate,27,none,own,1,1,1,none,yes,skilled_employee
+A,24,repaid,radio_tv,1603,A,A,4,female,none,4,other,55,none,own,1,1,1,none,yes,skilled_employee
+A,18,critical,car_new,5302,A,A,2,single_male,none,4,unknown_none,36,none,for_free,3,1,1,yes,yes,mangement_self_employed
+unknown,12,critical,education,2748,A,A,2,female,none,4,unknown_none,57,bank,for_free,3,1,1,none,yes,unskilled_resident
+unknown,10,critical,car_new,1231,A,A,3,single_male,none,4,real_estate,32,none,own,2,1,2,none,no,unskilled_resident
+C,15,repaid,radio_tv,802,A,A,4,single_male,none,3,other,37,none,own,1,2,2,none,yes,skilled_employee
+unknown,36,critical,business,6304,unknown,A,4,single_male,none,4,real_estate,36,none,own,2,1,1,none,yes,skilled_employee
+unknown,24,repaid,radio_tv,1533,A,B,4,female,none,3,other,38,stores,own,1,1,1,yes,yes,skilled_employee
+A,14,repaid,car_new,8978,A,A,1,divorced_male,none,4,building_society_savings,45,none,own,1,2,1,yes,no,mangement_self_employed
+unknown,24,repaid,radio_tv,999,unknown,A,4,single_male,none,2,other,25,none,own,2,1,1,none,yes,skilled_employee
+unknown,18,repaid,car_new,2662,unknown,D,4,single_male,none,3,building_society_savings,32,none,own,1,1,1,none,no,skilled_employee
+unknown,12,critical,furniture,1402,D,D,3,female,none,4,other,37,none,rent,1,1,1,yes,yes,skilled_employee
+C,48,fully repaid this bank,car_new,12169,unknown,unemployed,4,single_male,co-applicant,4,unknown_none,36,none,for_free,1,1,1,yes,yes,mangement_self_employed
+C,48,repaid,radio_tv,3060,A,D,4,single_male,none,4,real_estate,28,none,own,2,2,1,none,yes,skilled_employee
+A,30,repaid,repairs,11998,A,B,1,divorced_male,none,1,unknown_none,34,none,own,1,2,1,yes,yes,unskilled_resident
+unknown,9,repaid,radio_tv,2697,A,C,1,single_male,none,2,real_estate,32,none,own,1,1,2,none,yes,skilled_employee
+unknown,18,critical,radio_tv,2404,A,C,2,female,none,2,other,26,none,own,2,1,1,none,yes,skilled_employee
+A,12,repaid,furniture,1262,unknown,A,2,divorced_male,none,4,building_society_savings,49,none,own,1,1,1,yes,yes,unskilled_resident
+unknown,6,repaid,furniture,4611,A,B,1,female,none,4,building_society_savings,32,none,own,1,2,1,none,yes,skilled_employee
+unknown,24,repaid,radio_tv,1901,C,C,4,single_male,none,4,other,29,none,rent,1,1,1,yes,yes,mangement_self_employed
+unknown,15,critical,car_used,3368,B,A,3,single_male,none,4,unknown_none,23,none,rent,2,1,1,yes,yes,skilled_employee
+unknown,12,repaid,furniture,1574,A,C,4,single_male,none,2,real_estate,50,none,own,1,1,1,none,yes,skilled_employee
+B,18,fully repaid this bank,radio_tv,1445,unknown,D,4,single_male,none,4,other,49,bank,own,1,1,1,none,yes,unskilled_resident
+unknown,15,critical,furniture,1520,unknown,A,4,single_male,none,4,building_society_savings,63,none,own,1,1,1,none,yes,skilled_employee
+C,24,critical,car_new,3878,C,B,4,divorced_male,none,2,other,37,none,own,1,1,1,yes,yes,skilled_employee
+A,47,repaid,car_new,10722,A,B,1,female,none,1,real_estate,35,none,own,1,1,1,yes,yes,unskilled_resident
+A,48,repaid,car_used,4788,A,D,4,single_male,none,3,building_society_savings,26,none,own,1,1,2,none,yes,skilled_employee
+C,48,delayed,others,7582,C,unemployed,2,single_male,none,4,unknown_none,31,none,for_free,1,1,1,yes,yes,mangement_self_employed
+C,12,repaid,radio_tv,1092,A,C,4,female,guarantor,4,real_estate,49,none,own,2,1,1,yes,yes,skilled_employee
+A,24,delayed,radio_tv,1024,A,B,4,married_male,none,4,real_estate,48,stores,own,1,2,1,none,yes,skilled_employee
+unknown,12,repaid,business,1076,A,C,2,married_male,none,2,real_estate,26,none,own,1,1,1,yes,no,skilled_employee
+C,36,repaid,car_used,9398,A,B,1,married_male,none,4,other,28,none,rent,1,2,1,yes,yes,mangement_self_employed
+A,24,critical,car_used,6419,A,A,2,female,none,4,unknown_none,44,none,for_free,2,1,2,yes,yes,mangement_self_employed
+B,42,critical,car_used,4796,A,A,4,single_male,none,4,unknown_none,56,none,for_free,1,1,1,none,yes,skilled_employee
+unknown,48,critical,business,7629,unknown,A,4,divorced_male,none,2,other,46,bank,own,2,1,2,none,yes,mangement_self_employed
+C,48,repaid,furniture,9960,A,B,1,female,none,2,other,26,none,own,1,2,1,yes,yes,skilled_employee
+unknown,12,repaid,car_used,4675,unknown,B,1,female,none,4,other,20,none,rent,1,1,1,none,yes,skilled_employee
+unknown,10,repaid,car_new,1287,unknown,A,4,single_male,co-applicant,2,building_society_savings,45,none,own,1,1,1,none,no,unskilled_resident
+unknown,18,repaid,furniture,2515,A,C,3,single_male,none,4,real_estate,43,none,own,1,1,1,yes,yes,skilled_employee
+C,21,critical,furniture,2745,B,D,3,single_male,none,2,other,32,none,own,2,1,1,yes,yes,skilled_employee
+unknown,6,repaid,car_new,672,A,unemployed,1,female,none,4,real_estate,54,none,own,1,1,1,yes,yes,unemployed_non_resident
+C,36,fully repaid,radio_tv,3804,A,C,4,female,none,1,other,42,none,own,1,2,1,yes,yes,skilled_employee
+B,24,critical,car_new,1344,unknown,D,4,single_male,none,2,real_estate,37,bank,own,2,2,2,none,yes,unskilled_resident
+A,10,critical,car_new,1038,A,D,4,single_male,co-applicant,3,building_society_savings,49,none,own,2,1,1,yes,yes,skilled_employee
+unknown,48,critical,car_new,10127,D,C,2,single_male,none,2,unknown_none,44,bank,for_free,1,2,1,none,yes,skilled_employee
+unknown,6,repaid,furniture,1543,B,C,4,divorced_male,none,2,real_estate,33,none,own,1,1,1,none,yes,skilled_employee
+unknown,30,repaid,car_used,4811,unknown,D,2,female,none,4,building_society_savings,24,stores,rent,1,1,1,none,yes,unskilled_resident
+A,12,repaid,radio_tv,727,C,B,4,married_male,none,3,unknown_none,33,none,own,1,2,1,yes,yes,unskilled_resident
+C,8,repaid,furniture,1237,A,C,3,female,none,4,real_estate,24,none,own,1,2,1,none,yes,skilled_employee
+C,9,repaid,car_new,276,A,C,4,married_male,none,4,real_estate,22,none,rent,1,1,1,none,yes,unskilled_resident
+C,48,repaid,others,5381,unknown,unemployed,3,single_male,none,4,unknown_none,40,bank,for_free,1,1,1,yes,yes,unemployed_non_resident
+unknown,24,repaid,furniture,5511,C,C,4,single_male,none,1,other,25,stores,own,1,1,1,none,yes,skilled_employee
+B,24,repaid,furniture,3749,A,B,2,female,none,4,other,26,none,own,1,1,1,none,yes,skilled_employee
+C,12,repaid,car_new,685,A,D,2,married_male,none,3,other,25,bank,own,1,2,1,none,yes,unskilled_resident
+B,4,repaid,car_new,1494,unknown,B,1,single_male,none,2,real_estate,29,none,own,1,1,2,none,no,unskilled_resident
+A,36,fully repaid this bank,furniture,2746,A,A,4,single_male,none,4,other,31,bank,own,1,2,1,none,yes,skilled_employee
+A,12,repaid,furniture,708,A,C,2,single_male,guarantor,3,building_society_savings,38,none,own,1,1,2,none,yes,unskilled_resident
+C,24,repaid,furniture,4351,unknown,C,1,female,none,4,building_society_savings,48,none,own,1,1,1,yes,yes,unskilled_resident
+unknown,12,critical,education,701,A,C,4,single_male,none,2,other,32,none,own,2,1,1,none,yes,skilled_employee
+A,15,delayed,furniture,3643,A,A,1,female,none,4,building_society_savings,27,none,own,2,1,1,none,yes,unskilled_resident
+C,30,critical,car_new,4249,A,unemployed,4,married_male,none,2,other,28,none,own,2,2,1,none,yes,mangement_self_employed
+A,24,repaid,radio_tv,1938,A,B,4,divorced_male,none,3,building_society_savings,32,none,own,1,2,1,none,yes,skilled_employee
+A,24,repaid,car_used,2910,A,D,2,single_male,none,1,unknown_none,34,none,for_free,1,1,1,yes,yes,mangement_self_employed
+A,18,repaid,furniture,2659,B,C,4,single_male,none,2,other,28,none,own,1,1,1,none,yes,skilled_employee
+unknown,18,critical,car_new,1028,A,C,4,female,none,3,real_estate,36,none,own,2,1,1,none,yes,skilled_employee
+A,8,critical,car_new,3398,A,D,1,single_male,none,4,real_estate,39,none,own,2,1,1,none,no,unskilled_resident
+unknown,12,critical,furniture,5801,unknown,A,2,single_male,none,4,building_society_savings,49,none,rent,1,1,1,yes,yes,skilled_employee
+unknown,24,repaid,car_new,1525,B,D,4,female,none,3,other,34,none,own,1,1,2,yes,yes,skilled_employee
+B,36,repaid,radio_tv,4473,A,A,4,single_male,none,2,other,31,none,own,1,1,1,none,yes,skilled_employee
+C,6,repaid,radio_tv,1068,A,A,4,single_male,none,4,other,28,none,own,1,1,2,none,yes,skilled_employee
+A,24,critical,car_used,6615,A,unemployed,2,single_male,none,4,unknown_none,75,none,for_free,2,1,1,yes,yes,mangement_self_employed
+unknown,18,critical,education,1864,C,C,4,female,none,2,real_estate,30,none,own,2,2,1,none,yes,skilled_employee
+C,60,repaid,car_new,7408,C,B,4,female,none,2,building_society_savings,24,none,own,1,2,1,none,yes,mangement_self_employed
+unknown,48,critical,car_used,11590,C,C,2,female,none,4,other,24,bank,rent,2,2,1,none,yes,unskilled_resident
+A,24,fully repaid,furniture,4110,A,A,3,single_male,none,4,unknown_none,23,bank,rent,2,2,2,none,yes,skilled_employee
+A,6,critical,furniture,3384,A,C,1,divorced_male,none,4,real_estate,44,none,rent,1,2,1,yes,yes,mangement_self_employed
+C,13,repaid,radio_tv,2101,A,B,2,female,guarantor,4,building_society_savings,23,none,own,1,1,1,none,yes,unskilled_resident
+A,15,repaid,domestic appliances,1275,unknown,C,4,female,none,2,other,24,none,rent,1,2,1,none,yes,skilled_employee
+A,24,repaid,furniture,4169,A,C,4,single_male,none,4,building_society_savings,28,none,own,1,1,1,none,yes,skilled_employee
+C,10,repaid,furniture,1521,A,C,4,divorced_male,none,2,other,31,none,own,1,1,1,none,yes,unskilled_resident
+C,24,critical,education,5743,A,B,2,female,none,4,unknown_none,24,none,for_free,2,1,1,yes,yes,skilled_employee
+A,21,repaid,furniture,3599,A,D,1,female,none,4,other,26,none,rent,1,1,1,none,yes,unskilled_resident
+C,18,repaid,radio_tv,3213,D,B,1,married_male,none,3,real_estate,25,none,rent,1,1,1,none,yes,skilled_employee
+C,18,repaid,business,4439,A,A,1,single_male,co-applicant,1,real_estate,33,bank,own,1,1,1,yes,yes,mangement_self_employed
+B,10,repaid,car_new,3949,A,B,1,single_male,guarantor,1,building_society_savings,37,none,own,1,1,2,none,yes,unskilled_resident
+unknown,15,critical,radio_tv,1459,A,C,4,female,none,2,other,43,none,own,1,1,1,none,yes,unskilled_resident
+C,13,critical,radio_tv,882,A,B,4,single_male,guarantor,4,real_estate,23,none,own,2,1,1,none,yes,skilled_employee
+C,24,repaid,radio_tv,3758,D,unemployed,1,female,none,4,unknown_none,23,none,rent,1,1,1,none,yes,unemployed_non_resident
+unknown,6,delayed,business,1743,C,C,1,single_male,none,2,real_estate,34,none,own,2,1,1,none,yes,unskilled_resident
+C,9,critical,education,1136,B,A,4,single_male,none,3,unknown_none,32,none,for_free,2,2,2,none,yes,skilled_employee
+unknown,9,repaid,domestic appliances,1236,A,B,1,female,none,4,real_estate,23,none,rent,1,1,1,yes,yes,skilled_employee
+C,9,repaid,furniture,959,A,C,1,female,none,2,other,29,none,own,1,2,1,none,no,skilled_employee
+unknown,18,critical,car_used,3229,unknown,unemployed,2,single_male,none,4,unknown_none,38,none,own,1,1,1,yes,yes,mangement_self_employed
+A,12,fully repaid,radio_tv,6199,A,C,4,single_male,none,2,building_society_savings,28,none,rent,2,2,1,yes,yes,skilled_employee
+unknown,10,repaid,education,727,D,A,4,single_male,none,4,unknown_none,46,none,for_free,1,1,1,yes,yes,skilled_employee
+C,24,repaid,car_new,1246,A,B,4,single_male,none,2,real_estate,23,stores,own,1,2,1,none,yes,unskilled_resident
+unknown,12,critical,radio_tv,2331,unknown,A,1,single_male,co-applicant,4,real_estate,49,none,own,1,1,1,yes,yes,skilled_employee
+unknown,36,delayed,radio_tv,4463,A,C,4,single_male,none,2,other,26,none,own,2,2,1,yes,yes,mangement_self_employed
+unknown,12,repaid,radio_tv,776,A,C,4,married_male,none,2,real_estate,28,none,own,1,1,1,none,yes,skilled_employee
+A,30,repaid,furniture,2406,A,D,4,female,none,4,real_estate,23,none,rent,1,2,1,none,yes,skilled_employee
+C,18,repaid,education,1239,unknown,C,4,single_male,none,4,unknown_none,61,none,for_free,1,1,1,none,yes,skilled_employee
+B,12,repaid,radio_tv,3399,unknown,A,2,single_male,none,3,other,37,none,own,1,1,1,none,yes,mangement_self_employed
+B,12,delayed,car_new,2247,A,C,2,female,none,2,other,36,stores,own,2,1,1,yes,yes,skilled_employee
+unknown,6,repaid,furniture,1766,A,C,1,married_male,none,2,building_society_savings,21,none,rent,1,1,1,none,yes,skilled_employee
+A,18,repaid,furniture,2473,A,unemployed,4,single_male,none,1,other,25,none,own,1,2,1,none,yes,unemployed_non_resident
+unknown,12,repaid,business,1542,A,D,2,single_male,none,4,other,36,none,own,1,1,1,yes,yes,skilled_employee
+unknown,18,critical,car_used,3850,A,D,3,single_male,none,1,other,27,none,own,2,1,1,none,yes,skilled_employee
+A,18,repaid,furniture,3650,A,B,1,female,none,4,other,22,none,rent,1,1,1,none,yes,skilled_employee
+A,36,repaid,furniture,3446,A,A,4,single_male,none,2,other,42,none,own,1,2,2,none,yes,skilled_employee
+C,18,repaid,furniture,3001,A,D,2,female,none,4,real_estate,40,none,rent,1,1,1,none,yes,skilled_employee
+unknown,36,repaid,car_new,3079,unknown,C,4,single_male,none,4,real_estate,36,none,own,1,1,1,none,yes,skilled_employee
+unknown,18,critical,radio_tv,6070,A,A,3,single_male,none,4,other,33,none,own,2,1,1,yes,yes,skilled_employee
+unknown,10,critical,furniture,2146,A,B,1,female,none,3,real_estate,23,none,rent,2,1,1,none,yes,skilled_employee
+unknown,60,critical,car_new,13756,unknown,A,2,single_male,none,4,unknown_none,63,bank,for_free,1,1,1,yes,yes,mangement_self_employed
+C,60,fully repaid this bank,others,14782,C,A,3,female,none,4,unknown_none,60,bank,for_free,2,2,1,yes,yes,mangement_self_employed
+A,48,fully repaid this bank,business,7685,A,D,2,female,guarantor,4,other,37,none,rent,1,2,1,none,yes,skilled_employee
+unknown,18,delayed,radio_tv,2320,A,unemployed,2,married_male,none,3,real_estate,34,none,own,2,1,1,none,yes,skilled_employee
+unknown,7,delayed,radio_tv,846,unknown,A,3,single_male,none,4,unknown_none,36,none,for_free,1,1,1,none,yes,skilled_employee
+C,36,repaid,car_new,14318,A,A,4,single_male,none,2,unknown_none,57,none,for_free,1,2,1,yes,yes,mangement_self_employed
+unknown,6,critical,car_new,362,C,C,4,female,none,4,other,52,none,own,2,1,1,none,yes,unskilled_resident
+A,20,repaid,furniture,2212,unknown,D,4,single_male,none,4,other,39,none,own,1,1,1,yes,yes,skilled_employee
+C,18,repaid,car_used,12976,A,unemployed,3,female,none,4,unknown_none,38,none,for_free,1,2,1,yes,yes,mangement_self_employed
+unknown,22,repaid,car_new,1283,unknown,D,4,female,none,4,building_society_savings,25,none,rent,1,1,1,none,yes,skilled_employee
+B,12,repaid,car_new,1330,A,B,4,single_male,none,1,real_estate,26,none,own,1,1,1,none,yes,skilled_employee
+unknown,30,delayed,business,4272,C,C,2,single_male,none,2,building_society_savings,26,none,own,2,1,1,none,yes,unskilled_resident
+unknown,18,critical,radio_tv,2238,A,C,2,female,none,1,other,25,none,own,2,1,1,none,yes,skilled_employee
+unknown,18,repaid,radio_tv,1126,unknown,B,4,female,none,2,real_estate,21,none,rent,1,1,1,yes,yes,skilled_employee
+C,18,critical,furniture,7374,A,unemployed,4,single_male,none,4,building_society_savings,40,stores,own,2,1,1,yes,yes,mangement_self_employed
+C,15,critical,business,2326,D,C,2,single_male,none,4,other,27,bank,own,1,1,1,none,yes,skilled_employee
+unknown,9,repaid,business,1449,A,D,3,female,none,2,other,27,none,own,2,1,1,none,yes,skilled_employee
+unknown,18,repaid,car_new,1820,A,C,2,married_male,none,2,building_society_savings,30,none,own,1,1,1,yes,yes,mangement_self_employed
+C,12,repaid,furniture,983,B,B,1,female,none,4,real_estate,19,none,rent,1,1,1,none,yes,unskilled_resident
+A,36,repaid,car_new,3249,A,D,2,single_male,none,4,unknown_none,39,bank,for_free,1,1,2,yes,yes,mangement_self_employed
+A,6,critical,radio_tv,1957,A,D,1,female,none,4,other,31,none,own,1,1,1,none,yes,skilled_employee
+unknown,9,critical,furniture,2406,A,unemployed,2,single_male,none,3,other,31,none,own,1,1,1,none,yes,mangement_self_employed
+C,39,delayed,education,11760,C,D,2,single_male,none,3,unknown_none,32,none,rent,1,1,1,yes,yes,skilled_employee
+A,12,repaid,furniture,2578,A,unemployed,3,female,none,4,unknown_none,55,none,for_free,1,1,1,none,yes,mangement_self_employed
+A,36,critical,furniture,2348,A,C,3,married_male,none,2,building_society_savings,46,none,own,2,1,1,yes,yes,skilled_employee
+C,12,repaid,car_new,1223,A,A,1,divorced_male,none,1,real_estate,46,none,rent,2,2,1,none,yes,skilled_employee
+unknown,24,critical,radio_tv,1516,B,C,4,female,none,1,real_estate,43,none,own,2,1,1,none,yes,unskilled_resident
+unknown,18,repaid,radio_tv,1473,A,B,3,married_male,none,4,real_estate,39,none,own,1,1,1,yes,yes,skilled_employee
+C,18,critical,business,1887,unknown,C,4,married_male,none,4,real_estate,28,bank,own,2,1,1,none,yes,skilled_employee
+unknown,24,delayed,business,8648,A,B,2,single_male,none,2,other,27,bank,own,2,2,1,yes,yes,skilled_employee
+unknown,14,delayed,car_new,802,A,C,4,single_male,none,2,other,27,none,own,2,1,1,none,yes,unskilled_resident
+C,18,delayed,car_new,2899,unknown,A,4,single_male,none,4,other,43,none,own,1,1,2,none,yes,skilled_employee
+C,24,repaid,radio_tv,2039,A,B,1,married_male,none,1,building_society_savings,22,none,own,1,2,1,yes,yes,skilled_employee
+unknown,24,critical,car_used,2197,unknown,D,4,single_male,none,4,other,43,none,own,2,1,2,yes,yes,skilled_employee
+A,15,repaid,radio_tv,1053,A,B,4,married_male,none,2,real_estate,27,none,own,1,1,1,none,no,skilled_employee
+unknown,24,repaid,radio_tv,3235,D,A,3,divorced_male,none,2,other,26,none,own,1,1,1,yes,yes,mangement_self_employed
+B,12,critical,car_new,939,D,D,4,married_male,none,2,real_estate,28,none,own,3,2,1,yes,yes,skilled_employee
+C,24,repaid,radio_tv,1967,A,A,4,female,none,4,other,20,none,own,1,1,1,yes,yes,skilled_employee
+unknown,33,critical,car_used,7253,A,D,3,single_male,none,2,other,35,none,own,2,1,1,yes,yes,mangement_self_employed
+unknown,12,critical,business,2292,A,unemployed,4,single_male,none,2,other,42,stores,own,2,2,1,yes,yes,mangement_self_employed
+unknown,10,repaid,car_new,1597,D,C,3,single_male,none,2,unknown_none,40,none,rent,1,1,2,none,no,unskilled_resident
+A,24,repaid,car_new,1381,unknown,C,4,female,none,2,building_society_savings,35,none,own,1,2,1,none,yes,skilled_employee
+unknown,36,critical,car_used,5842,A,A,2,single_male,none,2,building_society_savings,35,none,own,2,1,2,yes,yes,skilled_employee
+A,12,repaid,car_new,2579,A,B,4,single_male,none,1,real_estate,33,none,own,1,2,2,none,yes,unskilled_resident
+A,18,delayed,education,8471,unknown,C,1,female,none,2,other,23,none,rent,2,1,1,yes,yes,skilled_employee
+unknown,21,repaid,car_new,2782,D,D,1,female,none,2,other,31,bank,own,1,1,1,none,yes,mangement_self_employed
+C,18,repaid,car_new,1042,unknown,C,4,female,none,2,building_society_savings,33,none,own,1,2,1,none,yes,skilled_employee
+unknown,15,repaid,car_new,3186,B,D,2,female,none,3,other,20,none,rent,1,1,1,none,yes,skilled_employee
+C,12,repaid,car_used,2028,unknown,C,4,single_male,none,2,other,30,none,own,1,1,1,none,yes,skilled_employee
+C,12,critical,car_new,958,A,D,2,single_male,none,3,real_estate,47,none,own,2,1,2,none,yes,unskilled_resident
+unknown,21,delayed,furniture,1591,C,D,4,single_male,none,3,real_estate,34,none,own,2,1,1,none,yes,mangement_self_employed
+C,12,repaid,furniture,2762,unknown,A,1,female,none,2,building_society_savings,25,bank,own,1,2,1,yes,yes,skilled_employee
+C,18,repaid,car_used,2779,A,C,1,married_male,none,3,other,21,none,rent,1,1,1,yes,yes,skilled_employee
+unknown,28,critical,radio_tv,2743,A,A,4,single_male,none,2,other,29,none,own,2,1,1,none,yes,skilled_employee
+unknown,18,critical,radio_tv,1149,B,C,4,single_male,none,3,real_estate,46,none,own,2,1,1,none,yes,skilled_employee
+unknown,9,repaid,furniture,1313,A,A,1,single_male,none,4,other,20,none,own,1,1,1,none,yes,skilled_employee
+A,18,critical,repairs,1190,A,unemployed,2,female,none,4,unknown_none,55,none,for_free,3,2,2,none,yes,unemployed_non_resident
+unknown,5,repaid,business,3448,A,D,1,single_male,none,4,real_estate,74,none,own,1,1,1,none,yes,unskilled_resident
+C,24,repaid,others,11328,A,C,2,single_male,co-applicant,3,other,29,bank,own,2,2,1,yes,yes,mangement_self_employed
+A,6,critical,furniture,1872,A,unemployed,4,single_male,none,4,unknown_none,36,none,for_free,3,1,1,yes,yes,mangement_self_employed
+unknown,24,critical,repairs,2058,A,C,4,divorced_male,none,2,real_estate,33,none,own,2,1,1,yes,yes,skilled_employee
+A,9,repaid,furniture,2136,A,C,3,single_male,none,2,real_estate,25,none,own,1,1,1,none,yes,skilled_employee
+C,12,repaid,radio_tv,1484,unknown,C,2,married_male,none,1,real_estate,25,none,own,1,2,1,yes,yes,skilled_employee
+unknown,6,repaid,repairs,660,D,D,2,married_male,none,4,real_estate,23,none,rent,1,1,1,none,yes,unskilled_resident
+unknown,24,critical,car_new,1287,B,A,4,female,none,4,real_estate,37,none,own,2,1,1,yes,yes,skilled_employee
+A,42,critical,repairs,3394,A,unemployed,4,single_male,co-applicant,4,other,65,none,own,2,1,1,none,yes,unemployed_non_resident
+B,12,fully repaid this bank,business,609,A,B,4,female,none,1,real_estate,26,none,own,1,2,1,none,yes,unemployed_non_resident
+unknown,12,repaid,car_new,1884,A,A,4,single_male,none,4,other,39,none,own,1,1,1,yes,yes,mangement_self_employed
+A,12,repaid,furniture,1620,A,C,2,female,co-applicant,3,building_society_savings,30,none,own,1,1,1,none,yes,skilled_employee
+C,20,delayed,others,2629,A,C,2,single_male,none,3,other,29,bank,own,2,1,1,yes,yes,skilled_employee
+unknown,12,repaid,education,719,A,A,4,single_male,none,4,other,41,bank,own,1,2,2,none,yes,unskilled_resident
+C,48,critical,furniture,5096,A,C,2,female,none,3,other,30,none,own,1,2,1,yes,yes,mangement_self_employed
+unknown,9,critical,education,1244,unknown,A,4,female,none,4,building_society_savings,41,none,rent,2,1,1,none,yes,unskilled_resident
+A,36,repaid,car_new,1842,A,B,4,female,none,4,other,34,none,own,1,2,1,yes,yes,skilled_employee
+C,7,repaid,radio_tv,2576,A,C,2,single_male,guarantor,2,real_estate,35,none,own,1,1,1,none,yes,skilled_employee
+B,12,repaid,furniture,1424,unknown,A,3,female,none,4,real_estate,55,none,own,1,1,1,yes,yes,mangement_self_employed
+C,15,delayed,repairs,1512,B,C,3,married_male,none,3,building_society_savings,61,stores,own,2,2,1,none,yes,skilled_employee
+unknown,36,critical,car_used,11054,unknown,C,4,single_male,none,2,other,30,none,own,1,1,1,yes,yes,mangement_self_employed
+unknown,6,repaid,radio_tv,518,A,C,3,female,none,1,real_estate,29,none,own,1,1,1,none,yes,skilled_employee
+unknown,12,fully repaid,furniture,2759,A,A,2,single_male,none,4,building_society_savings,34,none,own,2,1,1,none,yes,skilled_employee
+unknown,24,repaid,car_used,2670,A,A,4,single_male,none,4,other,35,none,own,1,1,1,yes,yes,mangement_self_employed
+A,24,repaid,car_new,4817,A,D,2,single_male,co-applicant,3,building_society_savings,31,none,own,1,2,1,yes,yes,skilled_employee
+unknown,24,repaid,car_used,2679,A,B,4,female,none,1,unknown_none,29,none,own,1,1,1,yes,yes,mangement_self_employed
+A,11,critical,car_new,3905,A,C,2,single_male,none,2,real_estate,36,none,rent,2,1,2,none,yes,skilled_employee
+A,12,repaid,car_used,3386,A,A,3,single_male,none,4,unknown_none,35,none,for_free,1,2,1,yes,yes,skilled_employee
+A,6,repaid,domestic appliances,343,A,B,4,female,none,1,real_estate,27,none,own,1,1,1,none,yes,skilled_employee
+unknown,18,repaid,radio_tv,4594,A,B,3,single_male,none,2,other,32,none,own,1,1,1,yes,yes,skilled_employee
+A,36,repaid,furniture,3620,A,C,1,single_male,guarantor,2,building_society_savings,37,none,own,1,1,2,none,yes,skilled_employee
+A,15,repaid,car_new,1721,A,B,2,single_male,none,3,real_estate,36,none,own,1,1,1,none,yes,skilled_employee
+C,12,repaid,furniture,3017,A,B,3,female,none,1,real_estate,34,none,rent,1,1,1,none,yes,mangement_self_employed
+C,12,repaid,retraining,754,unknown,A,4,single_male,none,4,building_society_savings,38,none,own,2,1,1,none,yes,skilled_employee
+unknown,18,repaid,business,1950,A,D,4,single_male,none,1,other,34,stores,own,2,1,1,yes,yes,skilled_employee
+A,24,repaid,car_used,2924,A,C,3,single_male,guarantor,4,unknown_none,63,bank,own,1,1,2,yes,yes,skilled_employee
+A,24,delayed,radio_tv,1659,A,B,4,female,none,2,other,29,none,rent,1,2,1,yes,yes,unskilled_resident
+unknown,48,delayed,radio_tv,7238,unknown,A,3,single_male,none,3,other,32,bank,own,2,1,2,none,yes,skilled_employee
+unknown,33,delayed,business,2764,A,C,2,female,none,2,other,26,none,own,2,1,1,yes,yes,skilled_employee
+unknown,24,delayed,car_used,4679,A,D,3,single_male,none,3,other,35,none,own,2,1,1,yes,yes,unskilled_resident
+C,24,repaid,radio_tv,3092,C,B,3,married_male,none,2,other,22,none,rent,1,2,1,yes,yes,skilled_employee
+A,6,repaid,education,448,A,B,4,female,none,4,building_society_savings,23,none,own,1,2,1,none,yes,skilled_employee
+A,9,repaid,car_new,654,A,C,4,single_male,none,3,other,28,none,own,1,2,1,none,yes,unskilled_resident
+unknown,6,repaid,retraining,1238,unknown,unemployed,4,single_male,none,4,building_society_savings,36,none,own,1,1,2,yes,yes,mangement_self_employed
+C,18,critical,radio_tv,1245,A,C,4,married_male,none,2,other,33,none,own,1,2,1,none,yes,skilled_employee
+A,18,fully repaid,furniture,3114,A,B,1,female,none,4,building_society_savings,26,none,rent,1,2,1,none,yes,skilled_employee
+unknown,39,repaid,car_used,2569,D,C,4,single_male,none,4,other,24,none,own,1,1,1,none,yes,skilled_employee
+B,24,repaid,radio_tv,5152,A,D,4,single_male,none,2,other,25,bank,own,1,1,1,none,yes,skilled_employee
+C,12,repaid,business,1037,C,D,3,single_male,none,4,real_estate,39,none,own,1,1,1,none,yes,unskilled_resident
+A,15,critical,furniture,1478,A,A,4,single_male,none,4,other,44,none,own,2,1,2,yes,yes,skilled_employee
+C,12,critical,radio_tv,3573,A,C,1,female,none,1,real_estate,23,none,own,1,1,1,none,yes,unskilled_resident
+C,24,repaid,car_new,1201,A,B,4,single_male,none,1,building_society_savings,26,none,own,1,1,1,none,yes,skilled_employee
+A,30,repaid,furniture,3622,B,A,4,female,none,4,building_society_savings,57,none,rent,2,1,1,yes,yes,skilled_employee
+unknown,15,delayed,furniture,960,B,D,3,female,none,2,building_society_savings,30,none,own,2,1,1,none,yes,skilled_employee
+unknown,12,critical,car_new,1163,D,C,4,single_male,none,4,real_estate,44,none,own,1,1,1,yes,yes,skilled_employee
+C,6,delayed,car_new,1209,A,unemployed,4,single_male,none,4,building_society_savings,47,none,own,1,2,1,yes,yes,mangement_self_employed
+unknown,12,repaid,radio_tv,3077,A,C,2,single_male,none,4,other,52,none,own,1,1,1,yes,yes,skilled_employee
+unknown,24,repaid,car_new,3757,A,A,4,female,co-applicant,4,unknown_none,62,none,for_free,1,1,1,yes,yes,skilled_employee
+unknown,10,repaid,car_new,1418,C,C,3,single_male,none,2,real_estate,35,none,rent,1,1,1,none,no,unskilled_resident
+unknown,6,repaid,car_new,3518,A,C,2,single_male,guarantor,3,building_society_savings,26,none,rent,1,1,1,none,yes,skilled_employee
+unknown,12,critical,radio_tv,1934,A,A,2,single_male,none,2,unknown_none,26,none,own,2,1,1,none,yes,skilled_employee
+C,27,fully repaid,business,8318,A,A,2,female,none,4,unknown_none,42,none,for_free,2,2,1,yes,yes,mangement_self_employed
+unknown,6,critical,radio_tv,1237,C,C,1,female,none,1,building_society_savings,27,none,own,2,1,1,none,yes,skilled_employee
+C,6,repaid,radio_tv,368,unknown,A,4,single_male,none,4,building_society_savings,38,none,own,1,1,1,none,yes,skilled_employee
+A,12,critical,car_new,2122,A,C,3,single_male,none,2,real_estate,39,none,rent,2,1,2,none,no,unskilled_resident
+A,24,repaid,furniture,2996,unknown,C,2,married_male,none,4,other,20,none,own,1,2,1,none,yes,skilled_employee
+C,36,repaid,furniture,9034,C,B,4,single_male,co-applicant,1,unknown_none,29,none,rent,1,2,1,yes,yes,mangement_self_employed
+unknown,24,critical,furniture,1585,A,D,4,single_male,none,3,building_society_savings,40,none,own,2,1,1,none,yes,skilled_employee
+C,18,repaid,radio_tv,1301,A,A,4,married_male,guarantor,2,real_estate,32,none,own,1,1,1,none,yes,unskilled_resident
+B,6,critical,car_new,1323,C,A,2,divorced_male,none,4,other,28,none,own,2,1,2,yes,yes,skilled_employee
+A,24,repaid,car_new,3123,A,B,4,female,none,1,building_society_savings,27,none,own,1,2,1,none,yes,skilled_employee
+A,36,repaid,car_used,5493,A,A,2,single_male,none,4,unknown_none,42,none,for_free,1,1,2,none,yes,skilled_employee
+B,9,repaid,radio_tv,1126,C,A,2,divorced_male,none,4,real_estate,49,none,own,1,1,1,none,yes,skilled_employee
+C,24,critical,radio_tv,1216,C,B,4,single_male,none,4,unknown_none,38,bank,own,2,2,2,none,yes,skilled_employee
+A,24,repaid,car_new,1207,A,B,4,female,none,4,building_society_savings,24,none,rent,1,2,1,none,yes,skilled_employee
+unknown,10,repaid,car_new,1309,unknown,C,4,single_male,guarantor,4,building_society_savings,27,none,own,1,2,1,none,yes,unskilled_resident
+B,15,critical,car_used,2360,D,C,2,single_male,none,2,other,36,none,own,1,1,1,yes,yes,skilled_employee
+C,15,fully repaid this bank,car_new,6850,C,unemployed,1,single_male,none,2,building_society_savings,34,none,own,1,2,2,yes,yes,mangement_self_employed
+unknown,24,repaid,radio_tv,1413,A,C,4,married_male,none,2,building_society_savings,28,none,own,1,1,1,none,yes,skilled_employee
+unknown,39,repaid,car_used,8588,C,A,4,single_male,none,2,other,45,none,own,1,1,1,yes,yes,mangement_self_employed
+A,12,repaid,car_new,759,A,D,4,single_male,none,2,real_estate,26,none,own,1,2,1,none,yes,skilled_employee
+unknown,36,repaid,car_used,4686,A,C,2,single_male,none,2,unknown_none,32,none,for_free,1,1,1,yes,yes,mangement_self_employed
+B,15,repaid,business,2687,A,D,2,single_male,none,4,building_society_savings,26,none,rent,1,1,1,yes,yes,skilled_employee
+C,12,delayed,radio_tv,585,A,C,4,married_male,co-applicant,4,real_estate,20,none,rent,2,1,1,none,yes,skilled_employee
+unknown,24,repaid,car_new,2255,unknown,B,4,single_male,none,1,building_society_savings,54,none,own,1,1,1,none,yes,skilled_employee
+A,6,critical,car_new,609,A,D,4,female,none,3,building_society_savings,37,none,own,2,1,1,none,no,skilled_employee
+A,6,critical,car_new,1361,A,B,2,single_male,none,4,real_estate,40,none,own,1,1,2,none,no,unskilled_resident
+unknown,36,critical,furniture,7127,A,B,2,female,none,4,building_society_savings,23,none,rent,2,2,1,yes,yes,skilled_employee
+A,6,repaid,car_new,1203,C,A,3,single_male,none,2,building_society_savings,43,none,own,1,1,1,yes,yes,skilled_employee
+unknown,6,critical,radio_tv,700,unknown,A,4,single_male,none,4,unknown_none,36,none,for_free,2,1,1,none,yes,skilled_employee
+unknown,24,critical,repairs,5507,A,A,3,single_male,none,4,unknown_none,44,none,for_free,2,1,1,none,yes,skilled_employee
+A,18,repaid,radio_tv,3190,A,C,2,female,none,2,real_estate,24,none,own,1,2,1,none,yes,skilled_employee
+A,48,fully repaid,furniture,7119,A,C,3,single_male,none,4,unknown_none,53,none,for_free,2,2,2,none,yes,skilled_employee
+unknown,24,repaid,car_used,3488,C,D,3,female,none,4,other,23,none,own,1,1,1,none,yes,skilled_employee
+C,18,repaid,radio_tv,1113,A,C,4,female,guarantor,4,real_estate,26,none,own,1,1,2,none,yes,unskilled_resident
+C,26,repaid,car_used,7966,A,B,2,single_male,none,3,other,30,none,own,2,1,1,none,yes,skilled_employee
+unknown,15,critical,education,1532,C,C,4,female,none,3,other,31,none,own,1,1,1,none,yes,skilled_employee
+unknown,4,critical,radio_tv,1503,A,D,2,single_male,none,1,real_estate,42,none,own,2,1,2,none,yes,unskilled_resident
+A,36,repaid,radio_tv,2302,A,C,4,divorced_male,none,4,other,31,none,rent,1,2,1,none,yes,skilled_employee
+A,6,repaid,car_new,662,A,B,3,single_male,none,4,real_estate,41,none,own,1,1,2,yes,yes,unskilled_resident
+C,36,repaid,education,2273,A,D,3,single_male,none,1,other,32,none,own,2,1,2,none,yes,skilled_employee
+C,15,repaid,car_new,2631,C,C,2,female,none,4,other,28,none,rent,2,2,1,yes,yes,skilled_employee
+unknown,12,delayed,car_used,1503,A,C,4,married_male,none,4,real_estate,41,none,rent,1,1,1,none,yes,skilled_employee
+unknown,24,repaid,radio_tv,1311,C,D,4,married_male,none,3,building_society_savings,26,none,own,1,1,1,yes,yes,skilled_employee
+unknown,24,repaid,radio_tv,3105,unknown,B,4,single_male,none,2,other,25,none,own,2,1,1,none,yes,skilled_employee
+B,21,critical,education,2319,A,B,2,divorced_male,none,1,other,33,none,rent,1,2,1,none,yes,skilled_employee
+A,6,repaid,car_new,1374,unknown,unemployed,4,female,none,3,building_society_savings,75,none,own,1,1,1,yes,yes,mangement_self_employed
+C,18,critical,furniture,3612,A,A,3,female,none,4,building_society_savings,37,none,own,1,1,1,yes,yes,skilled_employee
+A,48,repaid,car_new,7763,A,A,4,single_male,none,4,unknown_none,42,bank,for_free,1,2,1,none,yes,mangement_self_employed
+B,18,repaid,furniture,3049,A,B,1,female,none,1,building_society_savings,45,stores,own,1,1,1,none,yes,unskilled_resident
+C,12,repaid,radio_tv,1534,A,B,1,married_male,none,1,real_estate,23,none,rent,1,2,1,none,yes,skilled_employee
+unknown,24,delayed,car_new,2032,A,A,4,single_male,none,4,unknown_none,60,none,for_free,2,1,1,yes,yes,skilled_employee
+A,30,repaid,furniture,6350,unknown,A,4,single_male,none,4,building_society_savings,31,none,own,1,2,1,none,yes,skilled_employee
+B,18,repaid,furniture,2864,A,C,2,single_male,none,1,real_estate,34,none,own,1,2,2,none,yes,unskilled_resident
+unknown,12,critical,car_new,1255,A,A,4,single_male,none,4,real_estate,61,none,own,2,1,1,none,yes,unskilled_resident
+A,24,delayed,car_new,1333,A,unemployed,4,single_male,none,2,real_estate,43,none,for_free,2,2,2,none,yes,skilled_employee
+unknown,24,critical,car_new,2022,A,C,4,female,none,4,other,37,none,own,1,1,1,yes,yes,skilled_employee
+unknown,24,repaid,radio_tv,1552,A,D,3,single_male,none,1,other,32,bank,own,1,1,2,none,yes,skilled_employee
+A,12,fully repaid this bank,radio_tv,626,A,C,4,female,none,4,real_estate,24,bank,own,1,2,1,none,yes,unskilled_resident
+unknown,48,critical,car_used,8858,unknown,D,2,single_male,none,1,unknown_none,35,none,for_free,2,1,1,yes,yes,skilled_employee
+unknown,12,critical,repairs,996,unknown,D,4,female,none,4,real_estate,23,none,own,2,1,1,none,yes,skilled_employee
+unknown,6,fully repaid this bank,radio_tv,1750,D,A,2,single_male,none,4,building_society_savings,45,bank,own,1,1,2,none,yes,unskilled_resident
+A,48,repaid,radio_tv,6999,A,D,1,married_male,guarantor,1,real_estate,34,none,own,2,2,1,yes,yes,skilled_employee
+C,12,critical,car_new,1995,C,B,4,single_male,none,1,other,27,none,own,1,1,1,none,yes,skilled_employee
+C,9,repaid,education,1199,A,D,4,female,none,4,building_society_savings,67,none,own,2,1,1,yes,yes,mangement_self_employed
+C,12,repaid,radio_tv,1331,A,B,2,single_male,none,1,other,22,stores,own,1,2,1,none,yes,skilled_employee
+C,18,fully repaid,car_new,2278,C,B,3,female,none,3,other,28,none,own,2,2,1,none,yes,skilled_employee
+unknown,21,fully repaid,car_new,5003,unknown,C,1,female,none,4,building_society_savings,29,bank,own,2,2,1,yes,yes,skilled_employee
+A,24,fully repaid this bank,furniture,3552,A,D,3,single_male,none,4,other,27,bank,own,1,2,1,none,yes,skilled_employee
+C,18,critical,furniture,1928,A,B,2,single_male,none,2,real_estate,31,none,own,2,2,1,none,yes,unskilled_resident
+A,24,repaid,car_used,2964,unknown,A,4,single_male,none,4,unknown_none,49,bank,for_free,1,1,2,yes,yes,skilled_employee
+A,24,fully repaid this bank,radio_tv,1546,A,D,4,single_male,guarantor,4,other,24,bank,rent,1,2,1,none,yes,unskilled_resident
+B,6,delayed,radio_tv,683,A,B,2,female,none,1,building_society_savings,29,bank,own,1,1,1,none,yes,skilled_employee
+C,36,repaid,car_new,12389,unknown,C,1,single_male,none,4,unknown_none,37,none,for_free,1,2,1,yes,yes,skilled_employee
+C,24,delayed,business,4712,unknown,C,4,single_male,none,2,building_society_savings,37,bank,own,2,1,1,yes,yes,mangement_self_employed
+C,24,delayed,radio_tv,1553,C,D,3,female,none,2,building_society_savings,23,none,rent,2,1,1,yes,yes,skilled_employee
+A,12,repaid,car_new,1372,A,D,2,divorced_male,none,3,other,36,none,own,1,2,1,none,yes,skilled_employee
+unknown,24,critical,radio_tv,2578,B,A,2,single_male,none,2,other,34,none,own,1,1,1,none,yes,skilled_employee
+C,48,repaid,radio_tv,3979,unknown,D,4,single_male,none,1,other,41,none,own,2,1,2,yes,yes,skilled_employee
+A,48,repaid,radio_tv,6758,A,C,3,female,none,2,other,31,none,own,1,2,1,yes,yes,skilled_employee
+A,24,repaid,furniture,3234,A,B,4,female,none,4,real_estate,23,none,rent,1,2,1,yes,yes,unskilled_resident
+unknown,30,critical,radio_tv,5954,A,D,3,single_male,co-applicant,2,other,38,none,own,1,1,1,none,yes,skilled_employee
+unknown,24,repaid,car_used,5433,unknown,unemployed,2,female,none,4,building_society_savings,26,none,rent,1,1,1,yes,yes,mangement_self_employed
+A,15,repaid,business,806,A,C,4,female,none,4,building_society_savings,22,none,own,1,1,1,none,yes,unskilled_resident
+C,9,repaid,radio_tv,1082,A,A,4,single_male,none,4,other,27,none,own,2,1,1,none,yes,unskilled_resident
+unknown,15,critical,furniture,2788,A,D,2,female,co-applicant,3,other,24,bank,own,2,1,1,none,yes,skilled_employee
+C,12,repaid,radio_tv,2930,A,D,2,female,none,1,real_estate,27,none,own,1,1,1,none,yes,skilled_employee
+unknown,24,critical,education,1927,unknown,C,3,female,none,2,other,33,none,own,2,1,1,yes,yes,skilled_employee
+C,36,critical,car_new,2820,A,B,4,divorced_male,none,4,other,27,none,own,2,2,1,none,yes,skilled_employee
+unknown,24,repaid,retraining,937,A,B,4,married_male,none,3,other,27,none,own,2,1,1,none,yes,unskilled_resident
+C,18,critical,car_new,1056,A,A,3,single_male,guarantor,3,real_estate,30,bank,own,2,2,1,none,yes,skilled_employee
+C,12,critical,car_new,3124,A,B,1,single_male,none,3,real_estate,49,bank,own,2,1,2,none,yes,unskilled_resident
+unknown,9,repaid,furniture,1388,A,C,4,female,none,2,real_estate,26,none,rent,1,1,1,none,yes,skilled_employee
+C,36,repaid,repairs,2384,A,B,4,single_male,none,1,unknown_none,33,none,rent,1,2,1,none,yes,unskilled_resident
+unknown,12,repaid,car_new,2133,unknown,A,4,female,none,4,unknown_none,52,none,for_free,1,1,1,yes,yes,mangement_self_employed
+A,18,repaid,furniture,2039,A,C,1,female,none,4,real_estate,20,bank,rent,1,2,1,none,yes,skilled_employee
+A,9,critical,car_new,2799,A,C,2,single_male,none,2,real_estate,36,none,rent,2,1,2,none,yes,skilled_employee
+A,12,repaid,furniture,1289,A,C,4,single_male,guarantor,1,building_society_savings,21,none,own,1,1,1,none,yes,unskilled_resident
+A,18,repaid,domestic appliances,1217,A,C,4,married_male,none,3,real_estate,47,none,own,1,2,1,yes,yes,unskilled_resident
+A,12,critical,furniture,2246,A,A,3,single_male,none,3,building_society_savings,60,none,own,2,2,1,none,yes,skilled_employee
+A,12,critical,radio_tv,385,A,D,4,female,none,3,real_estate,58,none,own,4,1,1,yes,yes,unskilled_resident
+C,24,delayed,car_new,1965,unknown,C,4,female,none,4,other,42,none,rent,2,1,1,yes,yes,skilled_employee
+unknown,21,repaid,business,1572,B,A,4,female,none,4,real_estate,36,bank,own,1,1,1,none,yes,unskilled_resident
+C,24,repaid,car_new,2718,A,C,3,female,none,4,building_society_savings,20,none,rent,1,2,1,yes,yes,unskilled_resident
+A,24,fully repaid this bank,others,1358,unknown,A,4,single_male,none,3,other,40,stores,own,1,2,1,yes,yes,mangement_self_employed
+C,6,fully repaid this bank,car_new,931,C,B,1,female,none,1,building_society_savings,32,stores,own,1,2,1,none,yes,unskilled_resident
+A,24,repaid,car_new,1442,A,D,4,female,none,4,other,23,none,rent,2,2,1,none,yes,skilled_employee
+C,24,fully repaid,business,4241,A,C,1,single_male,none,4,real_estate,36,none,own,3,2,1,yes,yes,unskilled_resident
+unknown,18,critical,car_new,2775,A,D,2,single_male,none,2,building_society_savings,31,bank,own,2,2,1,none,yes,skilled_employee
+unknown,24,delayed,business,3863,A,C,1,single_male,none,2,unknown_none,32,none,for_free,1,1,1,none,yes,skilled_employee
+C,7,repaid,radio_tv,2329,A,B,1,female,guarantor,1,real_estate,45,none,own,1,1,1,none,yes,skilled_employee
+C,9,repaid,furniture,918,A,C,4,female,none,1,building_society_savings,30,none,own,1,2,1,none,yes,skilled_employee
+C,24,fully repaid this bank,education,1837,A,D,4,female,none,4,unknown_none,34,bank,for_free,1,2,1,none,yes,unskilled_resident
+unknown,36,repaid,furniture,3349,A,C,4,female,none,2,other,28,none,own,1,2,1,yes,yes,mangement_self_employed
+B,10,repaid,furniture,1275,A,B,4,female,none,2,building_society_savings,23,none,own,1,1,1,none,yes,skilled_employee
+A,24,fully repaid this bank,furniture,2828,D,C,4,single_male,none,4,real_estate,22,stores,own,1,1,1,yes,yes,skilled_employee
+unknown,24,critical,business,4526,A,C,3,single_male,none,2,real_estate,74,none,own,1,1,1,yes,yes,mangement_self_employed
+C,36,repaid,radio_tv,2671,C,C,4,female,co-applicant,4,unknown_none,50,none,for_free,1,2,1,none,yes,skilled_employee
+unknown,18,repaid,radio_tv,2051,A,B,4,single_male,none,1,real_estate,33,none,own,1,1,1,none,yes,skilled_employee
+unknown,15,repaid,car_used,1300,unknown,A,4,single_male,none,4,unknown_none,45,bank,for_free,1,1,2,none,yes,skilled_employee
+A,12,repaid,domestic appliances,741,C,unemployed,4,female,none,3,building_society_savings,22,none,own,1,2,1,none,yes,skilled_employee
+B,10,repaid,car_new,1240,C,A,1,female,none,4,unknown_none,48,none,for_free,1,2,2,none,yes,unskilled_resident
+A,21,repaid,radio_tv,3357,B,B,4,female,none,2,other,29,bank,own,1,1,1,none,yes,skilled_employee
+A,24,fully repaid this bank,car_used,3632,A,C,1,female,guarantor,4,other,22,bank,rent,1,1,1,none,no,skilled_employee
+unknown,18,delayed,furniture,1808,A,D,4,female,none,1,real_estate,22,none,own,1,2,1,none,yes,skilled_employee
+C,48,fully repaid,business,12204,unknown,C,2,single_male,none,2,other,48,bank,own,1,1,1,yes,yes,mangement_self_employed
+C,60,delayed,radio_tv,9157,unknown,C,2,single_male,none,2,unknown_none,27,none,for_free,1,1,1,none,yes,mangement_self_employed
+A,6,critical,car_new,3676,A,C,1,single_male,none,3,real_estate,37,none,rent,3,1,2,none,yes,skilled_employee
+C,30,repaid,furniture,3441,C,C,2,female,co-applicant,4,other,21,none,rent,1,2,1,none,yes,skilled_employee
+unknown,12,repaid,car_new,640,A,C,4,divorced_male,none,2,real_estate,49,none,own,1,1,1,none,yes,unskilled_resident
+C,21,critical,business,3652,A,D,2,single_male,none,3,building_society_savings,27,none,own,2,1,1,none,yes,skilled_employee
+unknown,18,critical,car_new,1530,A,C,3,single_male,none,2,building_society_savings,32,bank,own,2,2,1,none,yes,skilled_employee
+unknown,48,repaid,business,3914,unknown,C,4,divorced_male,none,2,real_estate,38,bank,own,1,2,1,none,yes,skilled_employee
+A,12,repaid,furniture,1858,A,B,4,female,none,1,other,22,none,rent,1,1,1,none,yes,skilled_employee
+A,18,repaid,radio_tv,2600,A,C,4,single_male,none,4,unknown_none,65,none,for_free,2,2,1,none,yes,skilled_employee
+unknown,15,repaid,radio_tv,1979,unknown,A,4,single_male,none,2,other,35,none,own,1,1,1,none,yes,skilled_employee
+B,6,repaid,furniture,2116,A,C,2,single_male,none,2,real_estate,41,none,own,1,1,1,yes,yes,skilled_employee
+C,9,fully repaid this bank,car_new,1437,C,D,2,single_male,none,3,unknown_none,29,none,own,1,2,1,none,yes,skilled_employee
+unknown,42,critical,furniture,4042,D,C,4,single_male,none,4,real_estate,36,none,own,2,1,1,yes,yes,skilled_employee
+unknown,9,repaid,education,3832,unknown,A,1,single_male,none,4,real_estate,64,none,own,1,1,1,none,yes,unskilled_resident
+A,24,repaid,radio_tv,3660,A,C,2,female,none,4,other,28,none,own,1,1,1,none,yes,skilled_employee
+A,18,fully repaid this bank,furniture,1553,A,C,4,single_male,none,3,other,44,bank,own,1,2,1,none,yes,skilled_employee
+C,15,repaid,radio_tv,1444,unknown,B,4,single_male,none,1,building_society_savings,23,none,own,1,1,1,none,yes,skilled_employee
+unknown,9,repaid,furniture,1980,A,B,2,female,co-applicant,2,other,19,none,rent,2,2,1,none,yes,skilled_employee
+C,24,repaid,car_new,1355,A,B,3,female,none,4,other,25,none,own,1,2,1,yes,yes,unskilled_resident
+unknown,12,repaid,education,1393,A,A,4,single_male,none,4,building_society_savings,47,bank,own,3,1,2,yes,yes,skilled_employee
+unknown,24,repaid,radio_tv,1376,D,D,4,female,none,1,other,28,none,own,1,1,1,none,yes,skilled_employee
+unknown,60,delayed,radio_tv,15653,A,D,2,single_male,none,4,other,21,none,own,2,1,1,yes,yes,skilled_employee
+unknown,12,repaid,radio_tv,1493,A,B,4,female,none,3,other,34,none,own,1,1,2,none,yes,skilled_employee
+A,42,delayed,radio_tv,4370,A,D,3,single_male,none,2,building_society_savings,26,bank,own,2,2,2,yes,yes,skilled_employee
+A,18,repaid,education,750,A,unemployed,4,female,none,1,real_estate,27,none,own,1,2,1,none,yes,unemployed_non_resident
+C,15,repaid,repairs,1308,A,A,4,single_male,none,4,other,38,none,own,2,1,1,none,yes,unskilled_resident
+unknown,15,repaid,education,4623,C,C,3,single_male,none,2,building_society_savings,40,none,own,1,2,1,yes,yes,mangement_self_employed
+unknown,24,critical,radio_tv,1851,A,D,4,married_male,guarantor,2,other,33,none,own,2,1,1,yes,yes,skilled_employee
+A,18,critical,radio_tv,1880,A,D,4,married_male,none,1,building_society_savings,32,none,own,2,1,1,yes,yes,mangement_self_employed
+unknown,36,delayed,business,7980,unknown,B,4,single_male,none,4,other,27,none,rent,2,2,1,yes,yes,skilled_employee
+A,30,fully repaid,furniture,4583,A,C,2,divorced_male,guarantor,2,real_estate,32,none,own,2,1,1,none,yes,skilled_employee
+unknown,12,repaid,car_new,1386,D,C,2,female,none,2,building_society_savings,26,none,own,1,2,1,none,yes,skilled_employee
+B,24,repaid,car_new,947,A,D,4,single_male,none,3,unknown_none,38,bank,for_free,1,2,2,none,yes,skilled_employee
+A,12,repaid,education,684,A,C,4,single_male,none,4,other,40,none,rent,1,2,2,none,yes,unskilled_resident
+A,48,repaid,education,7476,A,D,4,single_male,none,1,unknown_none,50,none,for_free,1,1,1,yes,yes,mangement_self_employed
+C,12,repaid,furniture,1922,A,C,4,single_male,none,2,building_society_savings,37,none,own,1,2,1,none,yes,unskilled_resident
+A,24,repaid,car_new,2303,A,A,4,single_male,co-applicant,1,real_estate,45,none,own,1,2,1,none,yes,skilled_employee
+C,36,delayed,car_new,8086,C,A,2,single_male,none,4,other,42,none,own,4,2,1,yes,yes,mangement_self_employed
+unknown,24,critical,car_used,2346,A,D,4,single_male,none,3,other,35,none,own,2,1,1,yes,yes,skilled_employee
+A,14,repaid,car_new,3973,A,unemployed,1,single_male,none,4,unknown_none,22,none,for_free,1,1,1,none,yes,skilled_employee
+C,12,repaid,car_new,888,A,A,4,single_male,none,4,other,41,bank,own,1,2,2,none,yes,unskilled_resident
+unknown,48,repaid,radio_tv,10222,unknown,D,4,single_male,none,3,other,37,stores,own,1,1,1,yes,yes,skilled_employee
+C,30,fully repaid,business,4221,A,C,2,female,none,1,other,28,none,own,2,1,1,none,yes,skilled_employee
+C,18,critical,furniture,6361,A,A,2,single_male,none,1,unknown_none,41,none,own,1,1,1,yes,yes,skilled_employee
+B,12,repaid,radio_tv,1297,A,C,3,married_male,none,4,real_estate,23,none,rent,1,1,1,none,yes,skilled_employee
+A,12,repaid,car_new,900,unknown,C,4,married_male,none,2,other,23,none,own,1,2,1,none,yes,skilled_employee
+unknown,21,repaid,furniture,2241,A,A,4,single_male,none,2,real_estate,50,none,own,2,1,1,none,yes,skilled_employee
+C,6,delayed,furniture,1050,A,unemployed,4,single_male,none,1,building_society_savings,35,stores,own,2,1,1,yes,yes,mangement_self_employed
+B,6,critical,education,1047,A,C,2,female,none,4,building_society_savings,50,none,own,1,1,1,none,yes,unskilled_resident
+unknown,24,critical,others,6314,A,unemployed,4,single_male,co-applicant,2,unknown_none,27,bank,own,2,1,1,yes,yes,mangement_self_employed
+C,30,fully repaid this bank,furniture,3496,B,C,4,single_male,none,2,other,34,stores,own,1,1,2,yes,yes,skilled_employee
+unknown,48,fully repaid this bank,business,3609,A,C,1,female,none,1,real_estate,27,stores,own,1,1,1,none,yes,skilled_employee
+A,12,critical,car_new,4843,A,A,3,single_male,co-applicant,4,building_society_savings,43,none,rent,2,2,1,yes,yes,skilled_employee
+B,30,critical,radio_tv,3017,A,A,4,single_male,none,4,building_society_savings,47,none,own,1,1,1,none,yes,skilled_employee
+unknown,24,critical,business,4139,C,C,3,single_male,none,3,building_society_savings,27,none,own,2,1,1,yes,yes,unskilled_resident
+unknown,36,repaid,business,5742,C,D,2,single_male,none,2,other,31,none,own,2,1,1,yes,yes,skilled_employee
+unknown,60,repaid,car_new,10366,A,A,2,single_male,none,4,building_society_savings,42,none,own,1,1,1,yes,yes,mangement_self_employed
+unknown,6,critical,car_new,2080,D,C,1,married_male,none,2,other,24,none,own,1,1,1,none,yes,skilled_employee
+unknown,21,delayed,business,2580,D,B,4,single_male,none,2,real_estate,41,bank,own,1,2,2,none,yes,unskilled_resident
+unknown,30,critical,radio_tv,4530,A,D,4,female,none,4,other,26,none,rent,1,1,1,yes,yes,mangement_self_employed
+unknown,24,critical,furniture,5150,A,A,4,single_male,none,4,other,33,none,own,1,1,1,yes,yes,skilled_employee
+C,72,repaid,radio_tv,5595,C,C,2,married_male,none,2,other,24,none,own,1,2,1,none,yes,skilled_employee
+A,24,repaid,radio_tv,2384,A,A,4,single_male,none,4,real_estate,64,bank,rent,1,1,1,none,yes,unskilled_resident
+unknown,18,repaid,radio_tv,1453,A,B,3,female,none,1,real_estate,26,none,own,1,1,1,none,yes,skilled_employee
+unknown,6,repaid,education,1538,A,B,1,female,none,2,unknown_none,56,none,own,1,1,1,none,yes,skilled_employee
+unknown,12,repaid,radio_tv,2279,unknown,C,4,single_male,none,4,unknown_none,37,none,for_free,1,1,1,yes,yes,skilled_employee
+unknown,15,delayed,radio_tv,1478,A,C,4,married_male,none,3,real_estate,33,bank,own,2,1,1,none,yes,skilled_employee
+unknown,24,critical,radio_tv,5103,A,B,3,married_male,none,3,unknown_none,47,none,for_free,3,1,1,yes,yes,skilled_employee
+C,36,delayed,business,9857,C,D,1,single_male,none,3,building_society_savings,31,none,own,2,1,2,yes,yes,unskilled_resident
+unknown,60,repaid,car_new,6527,unknown,C,4,single_male,none,4,unknown_none,34,none,for_free,1,1,2,yes,yes,skilled_employee
+B,10,critical,radio_tv,1347,unknown,D,4,single_male,none,2,building_society_savings,27,none,own,2,1,1,yes,yes,skilled_employee
+C,36,delayed,car_new,2862,C,A,4,single_male,none,3,unknown_none,30,none,for_free,1,1,1,none,yes,skilled_employee
+unknown,9,repaid,radio_tv,2753,C,A,3,single_male,co-applicant,4,other,35,none,own,1,1,1,yes,yes,skilled_employee
+A,12,repaid,car_new,3651,B,C,1,single_male,none,3,building_society_savings,31,none,own,1,1,2,none,yes,skilled_employee
+A,15,critical,furniture,975,A,C,2,divorced_male,none,3,building_society_savings,25,none,own,2,1,1,none,yes,skilled_employee
+C,15,repaid,repairs,2631,C,C,3,female,none,2,real_estate,25,none,own,1,1,1,none,yes,unskilled_resident
+C,24,repaid,radio_tv,2896,C,B,2,single_male,none,1,other,29,none,own,1,1,1,none,yes,skilled_employee
+A,6,critical,car_new,4716,unknown,B,1,single_male,none,3,real_estate,44,none,own,2,1,2,none,yes,unskilled_resident
+unknown,24,repaid,radio_tv,2284,A,D,4,single_male,none,2,other,28,none,own,1,1,1,yes,yes,skilled_employee
+unknown,6,repaid,car_used,1236,D,C,2,single_male,none,4,building_society_savings,50,none,rent,1,1,1,none,yes,skilled_employee
+C,12,repaid,radio_tv,1103,A,D,4,single_male,guarantor,3,real_estate,29,none,own,2,1,1,none,no,skilled_employee
+unknown,12,critical,car_new,926,A,unemployed,1,female,none,2,building_society_savings,38,none,own,1,1,1,none,yes,unemployed_non_resident
+unknown,18,critical,radio_tv,1800,A,C,4,single_male,none,2,other,24,none,own,2,1,1,none,yes,skilled_employee
+B,15,repaid,education,1905,A,A,4,single_male,none,4,other,40,none,rent,1,1,1,yes,yes,mangement_self_employed
+unknown,12,repaid,furniture,1123,D,C,4,female,none,4,other,29,none,rent,1,2,1,none,yes,unskilled_resident
+A,48,critical,car_used,6331,A,A,4,single_male,none,4,unknown_none,46,none,for_free,2,2,1,yes,yes,skilled_employee
+B,24,repaid,radio_tv,1377,C,A,4,female,none,2,unknown_none,47,none,for_free,1,1,1,yes,yes,skilled_employee
+C,30,delayed,business,2503,C,A,4,single_male,none,2,building_society_savings,41,stores,own,2,1,1,none,yes,skilled_employee
+C,27,repaid,business,2528,A,B,4,female,none,1,building_society_savings,32,none,own,1,1,2,yes,yes,skilled_employee
+unknown,15,repaid,car_new,5324,D,A,1,female,none,4,unknown_none,35,none,for_free,1,1,1,none,yes,skilled_employee
+C,48,repaid,car_new,6560,C,D,3,single_male,none,2,building_society_savings,24,none,own,1,2,1,none,yes,skilled_employee
+C,12,fully repaid,furniture,2969,A,B,4,female,none,3,building_society_savings,25,none,rent,2,2,1,none,yes,skilled_employee
+C,9,repaid,radio_tv,1206,A,A,4,female,none,4,real_estate,25,none,own,1,1,1,none,yes,skilled_employee
+C,9,repaid,radio_tv,2118,A,C,2,single_male,none,2,real_estate,37,none,own,1,1,2,none,yes,unskilled_resident
+unknown,18,critical,radio_tv,629,D,A,4,single_male,none,3,building_society_savings,32,bank,own,2,1,1,yes,yes,mangement_self_employed
+A,6,fully repaid this bank,education,1198,A,A,4,female,none,4,unknown_none,35,none,for_free,1,2,1,none,yes,skilled_employee
+unknown,21,repaid,car_used,2476,unknown,A,4,single_male,none,4,real_estate,46,none,own,1,1,1,yes,yes,mangement_self_employed
+A,9,critical,radio_tv,1138,A,C,4,single_male,none,4,real_estate,25,none,own,2,1,1,none,yes,unskilled_resident
+C,60,repaid,car_new,14027,A,D,4,single_male,none,2,unknown_none,27,none,own,1,2,1,yes,yes,mangement_self_employed
+unknown,30,critical,car_used,7596,unknown,A,1,single_male,none,4,other,63,none,own,2,1,1,none,yes,skilled_employee
+unknown,30,critical,radio_tv,3077,unknown,A,3,single_male,none,2,other,40,none,own,2,1,2,yes,yes,skilled_employee
+unknown,18,repaid,radio_tv,1505,A,C,4,single_male,none,2,unknown_none,32,none,for_free,1,1,1,yes,yes,mangement_self_employed
+B,24,critical,radio_tv,3148,unknown,C,3,single_male,none,2,other,31,none,own,2,1,1,yes,yes,skilled_employee
+C,20,fully repaid,car_used,6148,C,A,3,married_male,none,4,other,31,bank,own,2,1,1,yes,yes,skilled_employee
+B,9,fully repaid,radio_tv,1337,A,B,4,single_male,none,2,other,34,none,own,2,2,1,yes,yes,mangement_self_employed
+C,6,fully repaid this bank,education,433,B,B,4,female,none,2,building_society_savings,24,bank,rent,1,2,2,none,yes,skilled_employee
+A,12,repaid,car_new,1228,A,C,4,female,none,2,real_estate,24,none,own,1,2,1,none,yes,unskilled_resident
+C,9,repaid,radio_tv,790,D,C,4,female,none,3,real_estate,66,none,own,1,1,1,none,yes,unskilled_resident
+unknown,27,repaid,car_new,2570,A,C,3,female,none,3,real_estate,21,none,rent,1,2,1,none,yes,skilled_employee
+unknown,6,critical,car_new,250,B,C,2,female,none,2,real_estate,41,bank,own,2,1,1,none,yes,unskilled_resident
+unknown,15,critical,radio_tv,1316,D,C,2,married_male,none,2,building_society_savings,47,none,own,2,1,1,none,yes,unskilled_resident
+A,18,repaid,radio_tv,1882,A,C,4,female,none,4,other,25,bank,rent,2,2,1,none,yes,skilled_employee
+C,48,fully repaid this bank,business,6416,A,A,4,female,none,3,unknown_none,59,none,rent,1,2,1,none,yes,skilled_employee
+B,24,critical,business,1275,B,C,2,divorced_male,none,4,real_estate,36,none,own,2,1,1,yes,yes,skilled_employee
+C,24,delayed,radio_tv,6403,A,B,1,single_male,none,2,other,33,none,own,1,1,1,none,yes,skilled_employee
+A,24,repaid,radio_tv,1987,A,C,2,single_male,none,4,real_estate,21,none,rent,1,2,2,none,yes,unskilled_resident
+C,8,repaid,radio_tv,760,A,D,4,female,guarantor,2,real_estate,44,none,own,1,1,1,none,yes,unskilled_resident
+unknown,24,repaid,car_used,2603,B,C,2,female,none,4,other,28,none,rent,1,1,1,yes,yes,skilled_employee
+unknown,4,critical,car_new,3380,A,D,1,female,none,1,real_estate,37,none,own,1,1,2,none,yes,skilled_employee
+C,36,fully repaid this bank,domestic appliances,3990,unknown,B,3,female,none,2,unknown_none,29,bank,own,1,1,1,none,yes,unemployed_non_resident
+C,24,repaid,car_used,11560,A,C,1,female,none,4,other,23,none,rent,2,2,1,none,yes,mangement_self_employed
+A,18,repaid,car_new,4380,C,C,3,single_male,none,4,other,35,none,own,1,1,2,yes,yes,unskilled_resident
+unknown,6,critical,car_new,6761,A,D,1,single_male,none,3,unknown_none,45,none,own,2,1,2,yes,yes,mangement_self_employed
+C,30,fully repaid,business,4280,C,C,4,female,none,4,other,26,none,rent,2,2,1,none,yes,unskilled_resident
+A,24,fully repaid this bank,car_new,2325,C,D,2,single_male,none,3,other,32,bank,own,1,1,1,none,yes,skilled_employee
+C,10,fully repaid this bank,radio_tv,1048,A,C,4,single_male,none,4,real_estate,23,stores,own,1,1,1,none,yes,unskilled_resident
+unknown,21,repaid,radio_tv,3160,unknown,A,4,single_male,none,3,building_society_savings,41,none,own,1,1,1,yes,yes,skilled_employee
+A,24,fully repaid this bank,furniture,2483,D,C,4,single_male,none,4,real_estate,22,stores,own,1,1,1,yes,yes,skilled_employee
+A,39,critical,furniture,14179,unknown,D,4,single_male,none,4,building_society_savings,30,none,own,2,1,1,yes,yes,mangement_self_employed
+A,13,critical,business,1797,A,B,3,single_male,none,1,building_society_savings,28,bank,own,2,1,1,none,yes,unskilled_resident
+A,15,repaid,car_new,2511,A,unemployed,1,female,none,4,other,23,none,rent,1,1,1,none,yes,skilled_employee
+A,12,repaid,car_new,1274,A,B,3,female,none,1,real_estate,37,none,own,1,2,1,none,yes,unskilled_resident
+unknown,21,repaid,car_used,5248,unknown,C,1,single_male,none,3,other,26,none,own,1,1,1,none,yes,skilled_employee
+unknown,15,repaid,car_used,3029,A,D,2,single_male,none,2,other,33,none,own,1,1,1,none,yes,skilled_employee
+A,6,repaid,furniture,428,A,A,2,female,none,1,building_society_savings,49,bank,own,1,1,1,yes,yes,skilled_employee
+A,18,repaid,car_new,976,A,B,1,female,none,2,other,23,none,own,1,2,1,none,yes,unskilled_resident
+C,12,repaid,business,841,C,D,2,female,none,4,real_estate,23,none,rent,1,1,1,none,yes,unskilled_resident
+unknown,30,critical,radio_tv,5771,A,D,4,female,none,2,other,25,none,own,2,1,1,none,yes,skilled_employee
+unknown,12,delayed,repairs,1555,B,A,4,single_male,none,4,unknown_none,55,none,for_free,2,2,2,none,yes,skilled_employee
+A,24,repaid,car_new,1285,unknown,D,4,female,none,4,unknown_none,32,none,rent,1,2,1,none,yes,skilled_employee
+B,6,critical,car_new,1299,A,C,1,single_male,none,1,real_estate,74,none,own,3,1,2,none,no,unemployed_non_resident
+B,15,critical,radio_tv,1271,unknown,C,3,single_male,none,4,unknown_none,39,none,for_free,2,2,1,yes,yes,skilled_employee
+unknown,24,repaid,car_new,1393,A,C,2,single_male,guarantor,2,real_estate,31,none,own,1,1,1,yes,yes,skilled_employee
+A,12,critical,car_new,691,A,A,4,single_male,none,3,building_society_savings,35,none,own,2,2,1,none,yes,skilled_employee
+unknown,15,critical,car_new,5045,unknown,A,1,female,none,4,other,59,none,own,1,1,1,yes,yes,skilled_employee
+A,18,critical,furniture,2124,A,C,4,female,none,4,real_estate,24,none,rent,2,2,1,none,yes,skilled_employee
+A,12,repaid,radio_tv,2214,A,C,4,single_male,none,3,building_society_savings,24,none,own,1,1,1,none,yes,unskilled_resident
+unknown,21,critical,car_new,12680,unknown,A,4,single_male,none,4,unknown_none,30,none,for_free,1,2,1,yes,yes,mangement_self_employed
+unknown,24,critical,car_new,2463,C,D,4,married_male,none,3,building_society_savings,27,none,own,2,1,1,yes,yes,skilled_employee
+C,12,repaid,radio_tv,1155,A,A,3,married_male,guarantor,3,real_estate,40,bank,own,2,1,1,none,yes,unskilled_resident
+A,30,repaid,furniture,3108,A,B,2,divorced_male,none,4,building_society_savings,31,none,own,1,2,1,none,yes,unskilled_resident
+unknown,10,repaid,car_used,2901,unknown,B,1,female,none,4,real_estate,31,none,rent,1,1,1,none,yes,skilled_employee
+C,12,critical,furniture,3617,A,A,1,single_male,none,4,other,28,none,rent,3,1,1,yes,yes,skilled_employee
+unknown,12,critical,radio_tv,1655,A,A,2,single_male,none,4,real_estate,63,none,own,2,1,1,yes,yes,unskilled_resident
+A,24,repaid,car_used,2812,unknown,A,2,female,none,4,real_estate,26,none,rent,1,1,1,none,yes,skilled_employee
+A,36,critical,education,8065,A,C,3,female,none,2,unknown_none,25,none,own,2,2,1,yes,yes,mangement_self_employed
+unknown,21,critical,car_used,3275,A,A,1,single_male,none,4,other,36,none,own,1,1,1,yes,yes,mangement_self_employed
+unknown,24,critical,radio_tv,2223,C,A,4,single_male,none,4,building_society_savings,52,bank,own,2,1,1,none,yes,skilled_employee
+B,12,critical,car_new,1480,D,unemployed,2,single_male,none,4,unknown_none,66,bank,for_free,3,1,1,none,yes,unemployed_non_resident
+A,24,repaid,car_new,1371,unknown,C,4,female,none,4,real_estate,25,none,rent,1,2,1,none,yes,skilled_employee
+unknown,36,critical,car_new,3535,A,D,4,single_male,none,4,other,37,none,own,2,1,1,yes,yes,skilled_employee
+A,18,repaid,radio_tv,3509,A,D,4,female,guarantor,1,real_estate,25,none,own,1,1,1,none,yes,skilled_employee
+unknown,36,critical,car_used,5711,B,A,4,single_male,none,2,other,38,none,own,2,1,1,yes,yes,mangement_self_employed
+C,18,repaid,repairs,3872,A,unemployed,2,female,none,4,other,67,none,own,1,1,1,yes,yes,skilled_employee
+C,39,critical,radio_tv,4933,A,D,2,single_male,guarantor,2,real_estate,25,none,own,2,2,1,none,yes,skilled_employee
+unknown,24,critical,car_new,1940,B,A,4,single_male,none,4,real_estate,60,none,own,1,1,1,yes,yes,skilled_employee
+C,12,fully repaid,retraining,1410,A,C,2,single_male,none,2,real_estate,31,none,own,1,1,1,yes,yes,unskilled_resident
+C,12,repaid,car_new,836,C,B,4,female,none,2,building_society_savings,23,bank,own,1,2,1,none,yes,unskilled_resident
+C,20,repaid,car_used,6468,unknown,unemployed,1,divorced_male,none,4,real_estate,60,none,own,1,1,1,yes,yes,mangement_self_employed
+C,18,repaid,business,1941,B,C,4,single_male,none,2,building_society_savings,35,none,own,1,1,1,yes,yes,unskilled_resident
+unknown,22,repaid,radio_tv,2675,D,A,3,single_male,none,4,other,40,none,own,1,1,1,none,yes,skilled_employee
+unknown,48,critical,car_used,2751,unknown,A,4,single_male,none,3,other,38,none,own,2,1,2,yes,yes,skilled_employee
+C,48,delayed,education,6224,A,A,4,single_male,none,4,unknown_none,50,none,for_free,1,2,1,none,yes,skilled_employee
+A,40,critical,education,5998,A,C,4,single_male,none,3,unknown_none,27,bank,own,1,2,1,yes,yes,skilled_employee
+C,21,repaid,business,1188,A,A,2,female,none,4,building_society_savings,39,none,own,1,2,2,none,yes,skilled_employee
+unknown,24,repaid,car_used,6313,unknown,A,3,single_male,none,4,other,41,none,own,1,1,2,yes,yes,mangement_self_employed
+unknown,6,critical,furniture,1221,unknown,C,1,married_male,none,2,building_society_savings,27,none,own,2,1,1,none,yes,skilled_employee
+B,24,repaid,furniture,2892,A,A,3,divorced_male,none,4,unknown_none,51,none,for_free,1,1,1,none,yes,skilled_employee
+unknown,24,repaid,furniture,3062,D,A,4,single_male,none,3,unknown_none,32,none,rent,1,1,1,yes,yes,skilled_employee
+unknown,9,repaid,furniture,2301,C,B,2,female,none,4,building_society_savings,22,none,rent,1,1,1,none,yes,skilled_employee
+A,18,repaid,car_used,7511,unknown,A,1,single_male,none,4,building_society_savings,51,none,for_free,1,2,2,yes,yes,skilled_employee
+unknown,12,critical,furniture,1258,A,B,2,female,none,4,building_society_savings,22,none,rent,2,1,1,none,yes,unskilled_resident
+unknown,24,delayed,car_new,717,unknown,A,4,married_male,none,4,other,54,none,own,2,1,1,yes,yes,skilled_employee
+C,9,repaid,car_new,1549,unknown,B,4,single_male,none,2,real_estate,35,none,own,1,1,1,none,yes,unemployed_non_resident
+unknown,24,critical,education,1597,A,A,4,single_male,none,4,unknown_none,54,none,for_free,2,1,2,none,yes,skilled_employee
+C,18,critical,radio_tv,1795,A,A,3,female,guarantor,4,real_estate,48,bank,rent,2,1,1,yes,yes,unskilled_resident
+A,20,critical,furniture,4272,A,A,1,female,none,4,building_society_savings,24,none,own,2,1,1,none,yes,skilled_employee
+unknown,12,critical,radio_tv,976,unknown,A,4,single_male,none,4,other,35,none,own,2,1,1,none,yes,skilled_employee
+C,12,repaid,car_new,7472,unknown,unemployed,1,female,none,2,real_estate,24,none,rent,1,1,1,none,yes,unemployed_non_resident
+A,36,repaid,car_new,9271,A,D,2,single_male,none,1,other,24,none,own,1,2,1,yes,yes,skilled_employee
+C,6,repaid,radio_tv,590,A,B,3,married_male,none,3,real_estate,26,none,own,1,1,1,none,no,unskilled_resident
+unknown,12,critical,radio_tv,930,unknown,A,4,single_male,none,4,real_estate,65,none,own,4,1,1,none,yes,skilled_employee
+C,42,fully repaid this bank,car_used,9283,A,unemployed,1,single_male,none,2,unknown_none,55,bank,for_free,1,1,1,yes,yes,mangement_self_employed
+C,15,fully repaid,car_new,1778,A,B,2,female,none,1,real_estate,26,none,rent,2,2,1,none,yes,unemployed_non_resident
+C,8,repaid,business,907,A,B,3,married_male,none,2,real_estate,26,none,own,1,1,1,yes,yes,skilled_employee
+C,6,repaid,radio_tv,484,A,D,3,married_male,guarantor,3,real_estate,28,bank,own,1,1,1,none,yes,unskilled_resident
+A,36,critical,car_used,9629,A,D,4,single_male,none,4,other,24,none,own,2,2,1,yes,yes,skilled_employee
+A,48,repaid,domestic appliances,3051,A,C,3,single_male,none,4,other,54,none,own,1,2,1,none,yes,skilled_employee
+A,48,repaid,car_new,3931,A,D,4,single_male,none,4,unknown_none,46,none,for_free,1,2,2,none,yes,skilled_employee
+C,36,delayed,car_new,7432,A,C,2,female,none,2,building_society_savings,54,none,rent,1,1,1,none,yes,skilled_employee
+unknown,6,repaid,domestic appliances,1338,D,C,1,divorced_male,none,4,real_estate,62,none,own,1,1,1,none,yes,skilled_employee
+unknown,6,critical,radio_tv,1554,A,D,1,female,none,2,other,24,none,rent,2,1,1,yes,yes,skilled_employee
+A,36,repaid,others,15857,A,unemployed,2,divorced_male,co-applicant,3,other,43,none,own,1,1,1,none,yes,mangement_self_employed
+A,18,repaid,radio_tv,1345,A,C,4,married_male,none,3,real_estate,26,bank,own,1,2,1,none,yes,skilled_employee
+unknown,12,repaid,car_new,1101,A,C,3,married_male,none,2,real_estate,27,none,own,2,1,1,yes,yes,skilled_employee
+B,12,repaid,radio_tv,3016,A,C,3,married_male,none,1,other,24,none,own,1,1,1,none,yes,skilled_employee
+A,36,repaid,furniture,2712,A,A,2,single_male,none,2,building_society_savings,41,bank,own,1,2,2,none,yes,skilled_employee
+A,8,critical,car_new,731,A,A,4,single_male,none,4,real_estate,47,none,own,2,1,1,none,yes,unskilled_resident
+unknown,18,critical,furniture,3780,A,B,3,divorced_male,none,2,other,35,none,own,2,1,1,yes,yes,mangement_self_employed
+A,21,critical,car_new,1602,A,A,4,married_male,none,3,other,30,none,own,2,1,1,yes,yes,skilled_employee
+A,18,critical,car_new,3966,A,A,1,female,none,4,real_estate,33,bank,rent,3,2,1,yes,yes,skilled_employee
+unknown,18,fully repaid,business,4165,A,C,2,single_male,none,2,other,36,stores,own,2,2,2,none,yes,skilled_employee
+A,36,repaid,car_used,8335,unknown,A,3,single_male,none,4,unknown_none,47,none,for_free,1,2,1,none,yes,skilled_employee
+C,48,delayed,business,6681,unknown,C,4,single_male,none,4,unknown_none,38,none,for_free,1,1,2,yes,yes,skilled_employee
+unknown,24,delayed,business,2375,D,C,4,single_male,none,2,other,44,none,own,2,1,2,yes,yes,skilled_employee
+A,18,repaid,car_new,1216,A,B,4,female,none,3,other,23,none,rent,1,2,1,yes,yes,skilled_employee
+A,45,fully repaid,business,11816,A,A,2,single_male,none,4,other,29,none,rent,2,2,1,none,yes,skilled_employee
+C,24,repaid,radio_tv,5084,unknown,A,2,female,none,4,other,42,none,own,1,1,1,yes,yes,skilled_employee
+B,15,repaid,radio_tv,2327,A,B,2,female,none,3,real_estate,25,none,own,1,2,1,none,yes,unskilled_resident
+A,12,fully repaid,car_new,1082,A,C,4,single_male,none,4,other,48,bank,own,2,2,1,none,yes,skilled_employee
+unknown,12,repaid,radio_tv,886,unknown,C,4,female,none,2,other,21,none,own,1,1,1,none,yes,skilled_employee
+unknown,4,repaid,furniture,601,A,B,1,female,none,3,real_estate,23,none,rent,1,1,2,none,yes,unskilled_resident
+A,24,critical,car_used,2957,A,A,4,single_male,none,4,building_society_savings,63,none,own,2,1,1,yes,yes,skilled_employee
+unknown,24,critical,radio_tv,2611,A,A,4,married_male,co-applicant,3,real_estate,46,none,own,2,1,1,none,yes,skilled_employee
+A,36,repaid,furniture,5179,A,D,4,single_male,none,2,building_society_savings,29,none,own,1,2,1,none,yes,skilled_employee
+unknown,21,delayed,car_used,2993,A,C,3,single_male,none,2,real_estate,28,stores,own,2,1,1,none,yes,unskilled_resident
+unknown,18,repaid,repairs,1943,A,B,4,female,none,4,real_estate,23,none,own,1,2,1,none,yes,skilled_employee
+unknown,24,fully repaid this bank,business,1559,A,D,4,single_male,none,4,other,50,bank,own,1,1,1,yes,yes,skilled_employee
+unknown,18,repaid,furniture,3422,A,A,4,single_male,none,4,building_society_savings,47,bank,own,3,1,2,yes,yes,skilled_employee
+C,21,repaid,furniture,3976,unknown,D,2,single_male,none,3,other,35,none,own,1,1,1,yes,yes,skilled_employee
+unknown,18,repaid,car_new,6761,unknown,C,2,single_male,none,4,other,68,none,rent,2,2,1,none,yes,skilled_employee
+unknown,24,repaid,car_new,1249,A,B,4,married_male,none,2,real_estate,28,none,own,1,1,1,none,yes,skilled_employee
+A,9,repaid,radio_tv,1364,A,D,3,single_male,none,4,real_estate,59,none,own,1,1,1,none,yes,skilled_employee
+A,12,repaid,radio_tv,709,A,A,4,single_male,none,4,real_estate,57,stores,own,1,2,1,none,yes,unskilled_resident
+A,20,critical,car_new,2235,A,C,4,married_male,guarantor,2,building_society_savings,33,bank,rent,2,2,1,none,no,skilled_employee
+unknown,24,critical,car_used,4042,unknown,D,3,single_male,none,4,building_society_savings,43,none,own,2,1,1,yes,yes,skilled_employee
+unknown,15,critical,radio_tv,1471,A,C,4,single_male,none,4,unknown_none,35,none,for_free,2,1,1,yes,yes,skilled_employee
+A,18,fully repaid this bank,car_new,1442,A,D,4,single_male,none,4,unknown_none,32,none,for_free,2,2,2,none,yes,unskilled_resident
+unknown,36,delayed,car_new,10875,A,A,2,single_male,none,2,other,45,none,own,2,1,2,yes,yes,skilled_employee
+unknown,24,repaid,car_new,1474,C,B,4,married_male,none,3,real_estate,33,none,own,1,1,1,yes,yes,skilled_employee
+unknown,10,repaid,retraining,894,unknown,D,4,female,none,3,building_society_savings,40,none,own,1,1,1,yes,yes,skilled_employee
+unknown,15,critical,furniture,3343,A,C,4,single_male,none,2,unknown_none,28,none,for_free,1,1,1,yes,yes,skilled_employee
+A,15,repaid,car_new,3959,A,C,3,female,none,2,building_society_savings,29,none,own,1,2,1,yes,yes,skilled_employee
+unknown,9,repaid,car_new,3577,C,C,1,single_male,guarantor,2,real_estate,26,none,rent,1,1,2,none,no,skilled_employee
+unknown,24,critical,car_used,5804,B,C,4,single_male,none,2,real_estate,27,none,own,2,1,1,none,yes,skilled_employee
+unknown,18,delayed,business,2169,A,C,4,married_male,none,2,other,28,none,own,1,2,1,yes,yes,skilled_employee
+A,24,repaid,radio_tv,2439,A,B,4,female,none,4,real_estate,35,none,own,1,2,1,yes,yes,skilled_employee
+unknown,27,critical,furniture,4526,B,B,4,single_male,none,2,real_estate,32,stores,own,2,1,2,yes,yes,unskilled_resident
+unknown,10,repaid,furniture,2210,A,C,2,single_male,none,2,real_estate,25,bank,rent,1,2,1,none,yes,unskilled_resident
+unknown,15,repaid,furniture,2221,D,C,2,female,none,4,other,20,none,rent,1,1,1,none,yes,skilled_employee
+A,18,repaid,radio_tv,2389,A,B,4,female,none,1,other,27,stores,own,1,1,1,none,yes,skilled_employee
+unknown,12,critical,furniture,3331,A,A,2,single_male,none,4,building_society_savings,42,stores,own,1,1,1,none,yes,skilled_employee
+unknown,36,repaid,business,7409,unknown,A,3,single_male,none,2,building_society_savings,37,none,own,2,1,1,none,yes,skilled_employee
+A,12,repaid,furniture,652,A,A,4,female,none,4,building_society_savings,24,none,rent,1,1,1,none,yes,skilled_employee
+unknown,36,delayed,furniture,7678,D,D,2,female,none,4,other,40,none,own,2,1,1,yes,yes,skilled_employee
+B,6,critical,car_new,1343,A,A,1,single_male,none,4,real_estate,46,none,own,2,1,2,none,no,skilled_employee
+A,24,critical,business,1382,C,D,4,single_male,none,1,real_estate,26,none,own,2,1,1,yes,yes,skilled_employee
+unknown,15,repaid,domestic appliances,874,unknown,B,4,female,none,1,real_estate,24,none,own,1,1,1,none,yes,skilled_employee
+A,12,repaid,furniture,3590,A,C,2,single_male,co-applicant,2,building_society_savings,29,none,own,1,1,2,none,yes,unskilled_resident
+C,11,critical,car_new,1322,B,C,4,female,none,4,other,40,none,own,2,1,1,none,yes,skilled_employee
+A,18,fully repaid this bank,radio_tv,1940,A,B,3,single_male,co-applicant,4,unknown_none,36,bank,for_free,1,1,1,yes,yes,mangement_self_employed
+unknown,36,repaid,radio_tv,3595,A,A,4,single_male,none,2,other,28,none,own,1,1,1,none,yes,skilled_employee
+A,9,repaid,car_new,1422,A,B,3,single_male,none,2,unknown_none,27,none,for_free,1,2,1,yes,yes,mangement_self_employed
+unknown,30,critical,radio_tv,6742,unknown,D,2,single_male,none,3,building_society_savings,36,none,own,2,1,1,none,yes,skilled_employee
+unknown,24,repaid,car_used,7814,A,D,3,single_male,none,3,other,38,none,own,1,1,1,yes,yes,mangement_self_employed
+unknown,24,repaid,car_used,9277,unknown,C,2,divorced_male,none,4,unknown_none,48,none,for_free,1,1,1,yes,yes,skilled_employee
+C,30,critical,car_new,2181,unknown,A,4,single_male,none,4,real_estate,36,none,own,2,1,1,none,yes,skilled_employee
+unknown,18,critical,radio_tv,1098,A,unemployed,4,female,none,4,other,65,none,own,2,1,1,none,yes,unemployed_non_resident
+C,24,repaid,furniture,4057,A,D,3,divorced_male,none,3,other,43,none,own,1,2,1,yes,yes,skilled_employee
+A,12,repaid,education,795,A,B,4,female,none,4,building_society_savings,53,none,own,1,2,1,none,yes,skilled_employee
+C,24,critical,business,2825,unknown,D,4,single_male,none,3,unknown_none,34,none,own,2,1,2,yes,yes,skilled_employee
+C,48,repaid,business,15672,A,C,2,single_male,none,2,other,23,none,own,1,2,1,yes,yes,skilled_employee
+unknown,36,critical,car_new,6614,A,A,4,single_male,none,4,other,34,none,own,2,1,1,yes,yes,mangement_self_employed
+unknown,28,fully repaid this bank,car_used,7824,unknown,B,3,single_male,guarantor,4,real_estate,40,bank,rent,2,1,2,yes,yes,skilled_employee
+A,27,critical,business,2442,A,A,4,single_male,none,4,other,43,stores,own,4,1,2,yes,yes,mangement_self_employed
+unknown,15,critical,radio_tv,1829,A,A,4,single_male,none,4,other,46,none,own,2,1,1,yes,yes,skilled_employee
+A,12,critical,car_new,2171,A,C,4,single_male,none,4,building_society_savings,38,bank,own,2,1,1,none,no,unskilled_resident
+C,36,critical,car_used,5800,A,C,3,single_male,none,4,other,34,none,own,2,1,1,yes,yes,skilled_employee
+unknown,18,critical,radio_tv,1169,unknown,C,4,single_male,none,3,building_society_savings,29,none,own,2,1,1,yes,yes,skilled_employee
+unknown,36,delayed,car_used,8947,unknown,D,3,single_male,none,2,other,31,stores,own,1,1,2,yes,yes,mangement_self_employed
+A,21,repaid,radio_tv,2606,A,B,4,female,none,4,building_society_savings,28,none,rent,1,1,1,yes,yes,mangement_self_employed
+unknown,12,critical,furniture,1592,B,D,3,female,none,2,building_society_savings,35,none,own,1,1,1,none,no,skilled_employee
+unknown,15,repaid,furniture,2186,unknown,D,1,female,none,4,real_estate,33,bank,rent,1,1,1,none,yes,unskilled_resident
+A,18,repaid,furniture,4153,A,C,2,single_male,co-applicant,3,other,42,none,own,1,2,1,none,yes,skilled_employee
+A,16,critical,car_new,2625,A,A,2,single_male,guarantor,4,building_society_savings,43,bank,rent,1,2,1,yes,yes,skilled_employee
+unknown,20,critical,car_new,3485,unknown,B,2,divorced_male,none,4,real_estate,44,none,own,2,1,1,yes,yes,skilled_employee
+unknown,36,critical,car_used,10477,unknown,A,2,single_male,none,4,unknown_none,42,none,for_free,2,1,1,none,yes,skilled_employee
+unknown,15,repaid,radio_tv,1386,unknown,C,4,married_male,none,2,real_estate,40,none,rent,1,1,1,yes,yes,skilled_employee
+unknown,24,repaid,radio_tv,1278,A,A,4,single_male,none,1,real_estate,36,none,own,1,1,1,yes,yes,mangement_self_employed
+A,12,repaid,radio_tv,1107,A,C,2,single_male,none,2,real_estate,20,none,rent,1,1,2,yes,yes,mangement_self_employed
+A,21,repaid,car_new,3763,unknown,D,2,single_male,co-applicant,2,real_estate,24,none,own,1,1,1,none,no,unskilled_resident
+C,36,repaid,education,3711,unknown,C,2,married_male,none,2,other,27,none,own,1,1,1,none,yes,skilled_employee
+unknown,15,delayed,car_used,3594,A,B,1,female,none,2,building_society_savings,46,none,own,2,1,1,none,yes,unskilled_resident
+C,9,repaid,car_new,3195,unknown,C,1,female,none,2,real_estate,33,none,own,1,1,1,none,yes,unskilled_resident
+unknown,36,delayed,radio_tv,4454,A,C,4,female,none,4,real_estate,34,none,own,2,1,1,none,yes,skilled_employee
+C,24,critical,furniture,4736,A,B,2,female,none,4,other,25,bank,own,1,2,1,none,yes,unskilled_resident
+C,30,repaid,radio_tv,2991,unknown,A,2,female,none,4,other,25,none,own,1,1,1,none,yes,skilled_employee
+unknown,11,repaid,business,2142,B,A,1,divorced_male,none,2,real_estate,28,none,own,1,1,1,yes,yes,skilled_employee
+A,24,fully repaid this bank,business,3161,A,C,4,single_male,none,2,building_society_savings,31,none,rent,1,2,1,yes,yes,skilled_employee
+C,48,fully repaid,others,18424,A,C,1,female,none,2,building_society_savings,32,bank,own,1,2,1,yes,no,mangement_self_employed
+unknown,10,repaid,car_used,2848,C,C,1,single_male,co-applicant,2,real_estate,32,none,own,1,1,2,none,yes,skilled_employee
+A,6,repaid,car_new,14896,A,A,1,single_male,none,4,unknown_none,68,bank,own,1,2,1,yes,yes,mangement_self_employed
+A,24,repaid,furniture,2359,C,unemployed,1,divorced_male,none,1,building_society_savings,33,none,own,1,2,1,none,yes,skilled_employee
+A,24,repaid,furniture,3345,A,A,4,single_male,none,2,building_society_savings,39,none,rent,1,2,1,yes,yes,mangement_self_employed
+unknown,18,critical,furniture,1817,A,C,4,female,none,2,unknown_none,28,none,own,2,1,1,none,yes,skilled_employee
+unknown,48,delayed,radio_tv,12749,D,D,4,single_male,none,1,other,37,none,own,1,1,1,yes,yes,mangement_self_employed
+A,9,repaid,radio_tv,1366,A,B,3,female,none,4,building_society_savings,22,none,rent,1,2,1,none,yes,skilled_employee
+C,12,repaid,car_new,2002,A,D,3,single_male,none,4,building_society_savings,30,none,rent,1,1,2,yes,yes,skilled_employee
+A,24,fully repaid this bank,furniture,6872,A,B,2,divorced_male,none,1,building_society_savings,55,bank,own,1,2,1,yes,yes,skilled_employee
+A,12,fully repaid this bank,car_new,697,A,B,4,single_male,none,2,other,46,bank,own,2,2,1,yes,yes,skilled_employee
+A,18,critical,furniture,1049,A,B,4,female,none,4,building_society_savings,21,none,rent,1,1,1,none,yes,skilled_employee
+A,48,repaid,car_used,10297,A,D,4,single_male,none,4,unknown_none,39,stores,for_free,3,2,2,yes,yes,skilled_employee
+unknown,30,repaid,radio_tv,1867,unknown,A,4,single_male,none,4,other,58,none,own,1,1,1,yes,yes,skilled_employee
+A,12,delayed,car_new,1344,A,C,4,single_male,none,2,real_estate,43,none,own,2,1,2,none,yes,unskilled_resident
+A,24,repaid,furniture,1747,A,B,4,single_male,co-applicant,1,building_society_savings,24,none,own,1,1,1,none,no,unskilled_resident
+C,9,repaid,radio_tv,1670,A,B,4,female,none,2,other,22,none,own,1,2,1,yes,yes,skilled_employee
+unknown,9,critical,car_new,1224,A,C,3,single_male,none,1,real_estate,30,none,own,2,1,1,none,yes,skilled_employee
+unknown,12,critical,radio_tv,522,D,A,4,single_male,none,4,building_society_savings,42,none,own,2,1,2,yes,yes,skilled_employee
+A,12,repaid,radio_tv,1498,A,C,4,female,none,1,other,23,bank,own,1,1,1,none,yes,skilled_employee
+C,30,delayed,radio_tv,1919,C,B,4,single_male,none,3,unknown_none,30,stores,own,2,2,1,none,yes,mangement_self_employed
+B,9,repaid,radio_tv,745,A,C,3,female,none,2,real_estate,28,none,own,1,2,1,none,yes,unskilled_resident
+C,6,repaid,radio_tv,2063,A,B,4,married_male,none,3,other,30,none,rent,1,1,1,yes,yes,mangement_self_employed
+C,60,repaid,education,6288,A,C,4,single_male,none,4,unknown_none,42,none,for_free,1,2,1,none,yes,skilled_employee
+unknown,24,critical,car_used,6842,unknown,C,2,single_male,none,4,building_society_savings,46,none,own,2,1,2,yes,yes,mangement_self_employed
+unknown,12,repaid,car_new,3527,unknown,B,2,single_male,none,3,building_society_savings,45,none,own,1,1,2,yes,yes,mangement_self_employed
+unknown,10,repaid,car_new,1546,A,C,3,single_male,none,2,real_estate,31,none,own,1,1,2,none,no,unskilled_resident
+unknown,24,repaid,furniture,929,unknown,D,4,single_male,none,2,other,31,stores,own,1,1,1,yes,yes,skilled_employee
+unknown,4,critical,car_new,1455,A,D,2,single_male,none,1,real_estate,42,none,own,3,1,2,none,yes,unskilled_resident
+A,15,repaid,furniture,1845,A,B,4,female,guarantor,1,building_society_savings,46,none,rent,1,1,1,none,yes,skilled_employee
+C,48,fully repaid,car_new,8358,D,B,1,female,none,1,other,30,none,own,2,1,1,none,yes,skilled_employee
+A,24,fully repaid this bank,furniture,3349,D,B,4,single_male,none,4,unknown_none,30,none,for_free,1,2,2,yes,yes,skilled_employee
+unknown,12,repaid,car_new,2859,unknown,unemployed,4,single_male,none,4,unknown_none,38,none,own,1,1,1,yes,yes,mangement_self_employed
+unknown,18,repaid,furniture,1533,A,B,4,married_male,co-applicant,1,building_society_savings,43,none,own,1,2,2,none,yes,unskilled_resident
+unknown,24,repaid,radio_tv,3621,C,A,2,single_male,none,4,other,31,none,own,2,2,1,none,yes,skilled_employee
+C,18,critical,business,3590,A,unemployed,3,married_male,none,3,other,40,none,own,3,1,2,yes,yes,unemployed_non_resident
+A,36,delayed,business,2145,A,D,2,single_male,none,1,other,24,none,own,2,2,1,yes,yes,skilled_employee
+C,24,repaid,car_used,4113,D,B,3,female,none,4,other,28,none,rent,1,2,1,none,yes,skilled_employee
+unknown,36,repaid,furniture,10974,A,unemployed,4,female,none,2,other,26,none,own,2,2,1,yes,yes,mangement_self_employed
+A,12,repaid,car_new,1893,A,C,4,female,guarantor,4,building_society_savings,29,none,own,1,1,1,yes,yes,skilled_employee
+A,24,critical,radio_tv,1231,B,A,4,female,none,4,building_society_savings,57,none,rent,2,1,1,yes,yes,mangement_self_employed
+B,30,critical,radio_tv,3656,unknown,A,4,single_male,none,4,building_society_savings,49,stores,own,2,1,1,none,yes,unskilled_resident
+C,9,critical,radio_tv,1154,A,A,2,single_male,none,4,real_estate,37,none,own,3,1,1,none,yes,unskilled_resident
+A,28,repaid,car_new,4006,A,C,3,single_male,none,2,other,45,none,own,1,2,1,none,yes,unskilled_resident
+C,24,repaid,furniture,3069,C,A,4,single_male,none,4,unknown_none,30,none,for_free,1,1,1,none,yes,skilled_employee
+unknown,6,critical,radio_tv,1740,A,A,2,married_male,none,2,real_estate,30,none,rent,2,1,1,none,yes,skilled_employee
+C,21,delayed,car_new,2353,A,C,1,divorced_male,none,4,building_society_savings,47,none,own,2,1,1,none,yes,skilled_employee
+unknown,15,repaid,car_new,3556,unknown,C,3,single_male,none,2,unknown_none,29,none,own,1,1,1,none,yes,skilled_employee
+unknown,24,repaid,radio_tv,2397,D,A,3,single_male,none,2,other,35,bank,own,2,2,1,yes,yes,skilled_employee
+C,6,repaid,repairs,454,A,B,3,married_male,none,1,building_society_savings,22,none,own,1,1,1,none,yes,unskilled_resident
+C,30,repaid,radio_tv,1715,unknown,C,4,female,none,1,other,26,none,own,1,1,1,none,yes,skilled_employee
+C,27,critical,radio_tv,2520,D,C,4,single_male,none,2,building_society_savings,23,none,own,2,2,1,none,yes,unskilled_resident
+unknown,15,repaid,radio_tv,3568,A,A,4,female,none,2,other,54,bank,rent,1,1,1,yes,yes,mangement_self_employed
+unknown,42,repaid,radio_tv,7166,unknown,D,2,married_male,none,4,building_society_savings,29,none,rent,1,1,1,yes,yes,skilled_employee
+A,11,critical,car_new,3939,A,C,1,single_male,none,2,real_estate,40,none,own,2,1,2,none,yes,unskilled_resident
+C,15,repaid,repairs,1514,C,C,4,single_male,guarantor,2,real_estate,22,none,own,1,1,1,none,yes,skilled_employee
+unknown,24,repaid,car_new,7393,A,C,1,single_male,none,4,building_society_savings,43,none,own,1,1,2,none,yes,unskilled_resident
+A,24,fully repaid this bank,car_new,1193,A,unemployed,1,female,co-applicant,4,unknown_none,29,none,rent,2,2,1,none,yes,unemployed_non_resident
+A,60,repaid,business,7297,A,A,4,single_male,co-applicant,4,unknown_none,36,none,rent,1,2,1,none,yes,skilled_employee
+unknown,30,critical,radio_tv,2831,A,C,4,female,none,2,other,33,none,own,1,1,1,yes,yes,skilled_employee
+B,24,repaid,radio_tv,1258,D,C,3,female,none,3,other,57,none,own,1,1,1,none,yes,unskilled_resident
+C,6,repaid,radio_tv,753,A,C,2,female,guarantor,3,real_estate,64,none,own,1,1,1,none,yes,skilled_employee
+C,18,delayed,business,2427,unknown,A,4,single_male,none,2,building_society_savings,42,none,own,2,1,1,none,yes,skilled_employee
+unknown,24,delayed,car_new,2538,A,A,4,single_male,none,4,other,47,none,own,2,2,2,none,yes,unskilled_resident
+C,15,fully repaid this bank,car_new,1264,C,C,2,married_male,none,2,building_society_savings,25,none,rent,1,2,1,none,yes,skilled_employee
+C,30,critical,furniture,8386,A,D,2,single_male,none,2,building_society_savings,49,none,own,1,2,1,none,yes,skilled_employee
+unknown,48,repaid,business,4844,A,unemployed,3,single_male,none,2,other,33,bank,rent,1,2,1,yes,yes,mangement_self_employed
+B,21,repaid,car_new,2923,C,C,1,female,none,1,other,28,bank,own,1,1,1,yes,yes,mangement_self_employed
+A,36,repaid,car_used,8229,A,C,2,single_male,none,2,building_society_savings,26,none,own,1,2,2,none,yes,skilled_employee
+unknown,24,critical,furniture,2028,A,D,2,single_male,none,2,building_society_savings,30,none,own,2,1,1,none,yes,unskilled_resident
+A,15,critical,furniture,1433,A,C,4,female,none,3,building_society_savings,25,none,rent,2,1,1,none,yes,skilled_employee
+B,42,fully repaid,business,6289,A,B,2,divorced_male,none,1,building_society_savings,33,none,own,2,1,1,none,yes,skilled_employee
+unknown,13,repaid,radio_tv,1409,C,unemployed,2,female,none,4,real_estate,64,none,own,1,1,1,none,yes,skilled_employee
+A,24,repaid,car_used,6579,A,unemployed,4,single_male,none,2,unknown_none,29,none,for_free,1,1,1,yes,yes,mangement_self_employed
+C,24,critical,radio_tv,1743,A,A,4,single_male,none,2,building_society_savings,48,none,own,2,1,1,none,yes,unskilled_resident
+unknown,12,critical,education,3565,unknown,B,2,single_male,none,1,building_society_savings,37,none,own,2,1,2,none,yes,unskilled_resident
+unknown,15,fully repaid this bank,radio_tv,1569,C,A,4,single_male,none,4,other,34,bank,own,1,1,2,none,yes,unskilled_resident
+A,18,repaid,radio_tv,1936,unknown,D,2,married_male,none,4,other,23,none,rent,2,1,1,none,yes,unskilled_resident
+A,36,repaid,furniture,3959,A,unemployed,4,single_male,none,3,building_society_savings,30,none,own,1,1,1,yes,yes,mangement_self_employed
+unknown,12,repaid,car_new,2390,unknown,A,4,single_male,none,3,other,50,none,own,1,1,1,yes,yes,skilled_employee
+unknown,12,repaid,furniture,1736,A,D,3,female,none,4,real_estate,31,none,own,1,1,1,none,yes,unskilled_resident
+A,30,repaid,car_used,3857,A,C,4,divorced_male,none,4,building_society_savings,40,none,own,1,1,1,yes,yes,mangement_self_employed
+unknown,12,repaid,radio_tv,804,A,A,4,single_male,none,4,other,38,none,own,1,1,1,none,yes,skilled_employee
+A,45,repaid,radio_tv,1845,A,C,4,single_male,none,4,unknown_none,23,none,for_free,1,2,1,yes,yes,skilled_employee
+C,45,critical,car_used,4576,C,unemployed,3,single_male,none,4,other,27,none,own,1,1,1,none,yes,skilled_employee
